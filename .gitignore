@@ -1,0 +1,22 @@
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.pem
+
+# env — never commit real credentials
+.env
+.env.local
+.env*.local
+
+# Google service account key. Use the GOOGLE_SERVICE_ACCOUNT_JSON env var instead.
+*service-account*.json
+credentials.json
+
+# The calendar secret iCal address must never be committed.
+*.ics
+
+.vercel
+next-env.d.ts
+*.tsbuildinfo

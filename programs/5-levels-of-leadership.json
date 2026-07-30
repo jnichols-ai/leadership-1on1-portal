@@ -1,0 +1,367 @@
+{
+  "programId": "5-levels-of-leadership",
+  "programName": "The 5 Levels of Leadership",
+  "sourceAuthor": "John C. Maxwell",
+  "description": "Six-session supervisor-led 1:1 certification track for leaders in training. Manager-facing discussion guide and sign-off gate for each session.",
+  "sessionCount": 6,
+  "cadenceDays": 7,
+  "startOffsetDays": 7,
+  "meetingDurationMinutes": 30,
+  "awardsCertification": true,
+  "certificationName": "5 Levels of Leadership Certification",
+  "mondayGroupTitle": "5 Levels of Leadership",
+  "ratingScale": [
+    { "value": 1, "label": "Not demonstrated" },
+    { "value": 2, "label": "Emerging" },
+    { "value": 3, "label": "Demonstrated" }
+  ],
+  "sessions": [
+    {
+      "sessionNumber": 1,
+      "code": "HWPL-M1",
+      "sourceFile": "HWPL Module 1 Supervisor Discussion Guide.pdf",
+      "moduleLabel": "Module 1",
+      "title": "The Foundation of Leadership",
+      "level": "The Law of the Lid",
+      "prepMinutes": 3,
+      "purpose": "Verify the employee is shifting their mindset from 'I am the boss' to 'I am building influence.'",
+      "coreConcept": "Leadership is a verb (a process of influence), not a noun (a title). A leader's effectiveness is limited by their 'Lid' — their leadership skill. If their leadership is a 4, the team's results will never consistently hit a 5.",
+      "supervisorTip": "In this first session, you are setting the tone for the entire certification. Be a 'Tour Guide' (Level 3), not a 'Travel Agent.' Show them you are also working on raising your own Lid.",
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "The Case Study (Chris)",
+          "context": "The trainee read about Chris, a top performer who plateaued after being promoted.",
+          "whatToLookFor": "Does the trainee recognize that Chris is trying to 'work' his way out of a 'leadership' problem?",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "Why do you think high performers like Chris often struggle to move past Level 1 (Position)?"
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "The Influence Inventory (The \"Move\")",
+          "context": "The trainee identified a relationship where they only have 'Level 1' (Positional) influence and created a plan to build trust.",
+          "whatToLookFor": "Is their plan specific? (e.g., \"I'm going to ask for their feedback on X\" vs. \"I'll be nicer\").",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "If their plan is too vague, ask: \"How will that specific action change how that person views your leadership next week?\""
+            },
+            {
+              "type": "share_your_experience",
+              "text": "Briefly share a time you relied too much on your title and what happened."
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "The Growth Commitment",
+          "context": "The trainee identified a personal 'Lid' (a skill or habit) they want to raise.",
+          "whatToLookFor": "Honesty. They should identify a genuine growth area (e.g., communication, emotional intelligence, delegation).",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Offer one resource or 'look-out' to help them. \"I love that goal. I'll keep an eye out for opportunities for you to practice that in our next team meeting.\""
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Do not clear them for Module 2 unless:",
+      "successCriteria": [
+        "They can explain the \"Law of the Lid\" in their own words.",
+        "They have a specific, actionable plan to move a Level 1 relationship toward Level 2.",
+        "They acknowledge that their title is just the starting point, not the finish line."
+      ],
+      "nextStep": "Once you are satisfied with their reflection, direct them to begin Module 2: Level 1 - Position."
+    },
+    {
+      "sessionNumber": 2,
+      "code": "HSPL-L2",
+      "sourceFile": "HSPL Lesson 2 Supervisor Discussion Guide.pdf",
+      "moduleLabel": "Module 2",
+      "title": "Level 1 – Position",
+      "level": "Level 1 – Rights",
+      "prepMinutes": 3,
+      "purpose": "Ensure the trainee understands that their title is a 'seat at the table,' not the power behind the engine.",
+      "coreConcept": "Level 1 is based on Rights. It is the entry level where people follow because they have to.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "The Case Study (Jordan)",
+          "context": null,
+          "whatToLookFor": "Does the trainee see that Jordan's 'manual-first' approach is actually a 'position' problem?",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "In our day-to-day work, when is it most tempting to rely on 'because I said so' rather than explaining the 'why'?"
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "The Value Defined",
+          "context": null,
+          "whatToLookFor": "Authenticity in their value commitments.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "If their \"Relational Value\" is just \"being nice,\" challenge them. Ask: \"How will you handle respect when a team member disagrees with you?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Moving Toward People",
+          "context": null,
+          "whatToLookFor": "A willingness to leave the 'comfort zone' of the job description.",
+          "prompts": [
+            {
+              "type": "share_your_experience",
+              "text": "Tell them about the first time you realized your title didn't mean people were actually following you."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Module 3 if they:",
+      "successCriteria": [
+        "Can identify the difference between a \"Positional\" mindset and a \"Permissional\" leadership.",
+        "Agree that \"Leadership is action, not position\".",
+        "Have committed to three core values that will drive their behavior."
+      ],
+      "nextStep": "Direct them to begin Module 3: Level 2 - Permission."
+    },
+    {
+      "sessionNumber": 3,
+      "code": "HSPL-L3",
+      "sourceFile": "HSPL Lesson 3, Level 2 - Supervisor Discussion Guide.pdf",
+      "moduleLabel": "Module 3",
+      "title": "Level 2 – Permission",
+      "level": "Level 2 – Relationships",
+      "prepMinutes": 3,
+      "purpose": "Ensure the trainee isn't just 'being a friend,' but is building the relational capital required to lead people through difficult challenges.",
+      "coreConcept": "Level 2 is based on Relationships. It is the level where the environment becomes pleasant, communication opens up, and trust is nurtured.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "The Case Study (Taylor)",
+          "context": null,
+          "whatToLookFor": "Does the trainee see that Taylor is actually stunting the team's growth by avoiding candor?",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "Why do high-producers get frustrated when a leader is 'too soft' and avoids performance conversations?"
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Relationship Audit",
+          "context": null,
+          "whatToLookFor": "Look at the trainee's answers to the four questions. Are they surface-level or deep?",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "Ask: \"How does knowing these non-business details help you lead this person differently?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Care vs. Candor",
+          "context": null,
+          "whatToLookFor": "Maturity in handling conflict.",
+          "prompts": [
+            {
+              "type": "share_your_experience",
+              "text": "Tell them about a time you had to deliver a 'hard truth' to someone you cared about and how it ultimately helped the relationship or the team."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Module 4 if they:",
+      "successCriteria": [
+        "Understand that Level 2 is about permission, not just popularity.",
+        "Can define the \"Caring Candor\" balance.",
+        "Have a plan to deepen their knowledge of their team members as \"whole people\"."
+      ],
+      "nextStep": "Direct them to begin Module 4: Level 3 - Production."
+    },
+    {
+      "sessionNumber": 4,
+      "code": "HSPL-L4",
+      "sourceFile": "HSPL Lesson 4 - Supervisor 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Module 4",
+      "title": "Level 3 – Production",
+      "level": "Level 3 – Results",
+      "prepMinutes": 3,
+      "purpose": "Move the trainee from individual contributor to leader of results.",
+      "coreConcept": "Level 3 is based on Results. Leaders gain credibility and influence not just by being 'liked,' but because of what they have done for the organization.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "The Case Study (Morgan)",
+          "context": "Morgan is acting as a Travel Agent (sending people where they've never been) rather than a Tour Guide (taking people where they have personally gone).",
+          "whatToLookFor": "Does the trainee recognize that Morgan is falling into the 'individual contributor' trap?",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "Morgan says doing it themselves is 'faster.' How does that mentality actually limit the team's results over the long term?"
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "The Pareto Principle (80/20 Rule)",
+          "context": null,
+          "whatToLookFor": "Look at the trainee's Responsibilities chart. Are their 'High Return' activities leadership-focused, or are they still clinging to technical tasks?",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "If they struggle to identify what to delegate, ask: \"Which of your lower-ranked tasks would provide the best growth opportunity for one of your peers if you taught it to them?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Small Victories & Momentum",
+          "context": null,
+          "whatToLookFor": "A specific plan to build Momentum — the 'Great Exaggerator' that makes solving problems easier.",
+          "prompts": [
+            {
+              "type": "share_your_experience",
+              "text": "Tell them about a time when team momentum made a difficult goal feel easy, or when a lack of momentum made a small problem feel impossible."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Module 5 if they:",
+      "successCriteria": [
+        "Can explain the difference between a \"Tour Guide\" and a \"Travel Agent\".",
+        "Have identified their top 20% \"High Return\" activities.",
+        "Have a specific \"small victory\" plan to start building momentum this week."
+      ],
+      "nextStep": "Direct them to begin Module 5: Level 4 - People Development."
+    },
+    {
+      "sessionNumber": 5,
+      "code": "HSPL-L5",
+      "sourceFile": "HSPL Lesson 5 - Supervisor 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Module 5",
+      "title": "Level 4 – People Development",
+      "level": "Level 4 – Reproduction",
+      "prepMinutes": 3,
+      "purpose": "Shift the trainee's focus from personal productivity to recruiting, positioning, and equipping others to lead.",
+      "coreConcept": "Level 4 is based on Reproduction. The leader's focus shifts from personal productivity to recruiting, positioning, and equipping others to lead.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "The Case Study (Parker)",
+          "context": null,
+          "whatToLookFor": "Does the trainee see that Parker's 'indispensability' is actually a career bottleneck?",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "Why is it often harder for a top producer (Level 3) to shift into a developer (Level 4) mindset?"
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "The 5-Step Equipping Process",
+          "context": null,
+          "whatToLookFor": "Verify they have chosen a specific technical skill and a specific peer to mentor. The goal is to move from Step 1 (I do it) to Step 2 (I do it and you are with me).",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "If they chose a peer based solely on \"Chemistry,\" challenge them to evaluate that person's Capacity (horsepower/ability) and Character (reliability)."
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "The \"Four Cs\" Personal Plan",
+          "context": null,
+          "whatToLookFor": "Maturity in identifying their own growth area.",
+          "prompts": [
+            {
+              "type": "share_your_experience",
+              "text": "Tell them about the first person you successfully 'reproduced' your skills in and how that allowed you to 'lead larger'."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Module 6 if they:",
+      "successCriteria": [
+        "Can define the \"80/20\" shift (80% focus on developing others).",
+        "Have a specific plan to initiate the 5-Step Equipping process with a peer.",
+        "Have committed to improving one of their own \"Four Cs\"."
+      ],
+      "nextStep": "Direct them to begin Module 6: Level 5 - The Pinnacle."
+    },
+    {
+      "sessionNumber": 6,
+      "code": "HSPL-L6",
+      "sourceFile": "HSPL Lesson 6 - Supervisor 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Module 6",
+      "title": "Level 5 – The Pinnacle",
+      "level": "Level 5 – Respect",
+      "prepMinutes": 3,
+      "purpose": "Confirm the trainee is building influence on who they are and what they represent, creating a legacy that outlasts them.",
+      "coreConcept": "Level 5 is based on Respect. It is the highest level where influence is built on who the leader is and what they represent, creating a legacy that outlasts them.",
+      "supervisorTip": null,
+      "isFinalSession": true,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "The Case Study (Avery)",
+          "context": null,
+          "whatToLookFor": "Does the trainee see that Avery's greatest success was the 'pipeline of leaders' left behind, not the projects Avery completed?",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "In our company, what specific character traits do we respect most in a leader who 'transcends' their job title?"
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Legacy Vision (The DNA)",
+          "context": null,
+          "whatToLookFor": "Depth of character. Is their 'Legacy DNA' focused on personal advancement or on adding value to others and the organization?",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "If their vision is purely professional, ask: \"Maxwell says you hire a 'whole person'. How does who you are outside of work impact your legacy at work?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Crucible Moments",
+          "context": null,
+          "whatToLookFor": "A willingness to be vulnerable. Level 5 leaders use their 'fumbles and flops' as teaching tools for others.",
+          "prompts": [
+            {
+              "type": "share_your_experience",
+              "text": "Share one of your own 'crucible moments' — a difficult experience that fundamentally changed your leadership perspective."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Award the Certification if they:",
+      "successCriteria": [
+        "Can distinguish between Success (personal) and Significance (impact on others).",
+        "Have shared a clear \"Legacy Vision\" for their current role.",
+        "Commit to using a personal \"crucible story\" to mentor a peer this month."
+      ],
+      "nextStep": "Award the 5 Levels of Leadership Certification."
+    }
+  ]
+}
