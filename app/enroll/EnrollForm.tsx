@@ -120,19 +120,29 @@ export default function EnrollForm({
         </div>
 
         <div className="card">
-          <h3>Send the invites</h3>
+          <h3>Calendar</h3>
           <p className="muted small" style={{ marginTop: 0 }}>
-            Click each link below to add the meeting and invite the trainee —
-            they are already added as a guest, so you just hit Save. This is
-            what puts the meeting on <em>their</em> calendar.
-          </p>
-          <p className="muted small">
-            If you have synced this board to your own Google Calendar, the
-            meetings already show up for you automatically; these links are what
-            reach the trainee.
+            Nothing more to do — all {created.calendarLinks.length} meetings are
+            being added to the <strong>Frontline Leaders</strong> calendar
+            automatically, with you and the trainee both invited. They usually
+            appear within a minute.
           </p>
 
-          <table>
+          <details style={{ marginTop: 12 }}>
+            <summary
+              className="muted small"
+              style={{ cursor: 'pointer', marginBottom: 10 }}
+            >
+              Meeting dates, and manual backup links
+            </summary>
+
+            <p className="muted small">
+              Only use these if a meeting has not appeared after a few minutes —
+              they add the event by hand, with the trainee already set as a
+              guest.
+            </p>
+
+            <table>
             <thead>
               <tr>
                 <th>Session</th>
@@ -153,13 +163,14 @@ export default function EnrollForm({
                   </td>
                   <td>
                     <a href={l.url} target="_blank" rel="noopener noreferrer">
-                      Add to Google Calendar
+                      Add manually
                     </a>
                   </td>
                 </tr>
               ))}
             </tbody>
-          </table>
+            </table>
+          </details>
         </div>
 
         <button className="primary" onClick={() => router.push('/dashboard')}>
