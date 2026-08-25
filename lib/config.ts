@@ -100,10 +100,16 @@ export const SESSION_BOARD = {
       'long_text_mm5qy1gf',
       'long_text_mm5qtcr8',
     ] as const,
+    /**
+     * Sign-off criteria columns. A program uses the first N, where N is the
+     * number of successCriteria its guides define (3 for 5 Levels, 4 for
+     * 7 Habits). Unused columns are simply never written.
+     */
     criterion: [
       'boolean_mm5q6tdj',
       'boolean_mm5qcvwb',
       'boolean_mm5qpx3j',
+      'boolean_mm6jz74a',
     ] as const,
     outcome: 'color_mm5qne5f',
     followUp: 'long_text_mm5qg56g',
@@ -153,12 +159,25 @@ export const CALENDAR = {
   timeZone: 'America/New_York',
 } as const;
 
+/** The maximum number of sign-off criteria the session board can store. */
+export const MAX_CRITERIA = SESSION_BOARD.columns.criterion.length;
+
 /**
- * monday group ID per program, per board. Add a row when a new book is
- * onboarded — both boards use the same group id convention.
+ * monday group IDs per program. The two boards were seeded at different times,
+ * so a program's group id is NOT the same on both — always look it up per
+ * board rather than reusing one id.
+ *
+ * Add a row when a new book is onboarded.
  */
-export const PROGRAM_GROUPS: Record<string, string> = {
-  '5-levels-of-leadership': 'topics',
+export const PROGRAM_GROUPS: Record<
+  string,
+  { enrollment: string; session: string }
+> = {
+  '5-levels-of-leadership': { enrollment: 'topics', session: 'topics' },
+  '7-habits-of-highly-effective-people': {
+    enrollment: 'group_mm6j38bv',
+    session: 'group_mm6jwaj5',
+  },
 };
 
 export function requireEnv(name: string): string {

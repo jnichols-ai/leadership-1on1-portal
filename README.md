@@ -96,7 +96,15 @@ Service workspace (`12317457`) → **Leadership Development** folder.
 | Leadership Development 1:1s | `18424322234` | One item per enrollment |
 | Leadership 1:1 Sessions | `18424337663` | One item per session; calendar integration attaches here |
 
-Linked by board-relation columns in both directions. Groups separate programs.
+Linked by board-relation columns in both directions. Groups separate programs —
+note that a program's group ID is **not** the same on both boards, because the
+two boards were seeded at different times. `PROGRAM_GROUPS` in `lib/config.ts`
+stores one id per board per program; never reuse one for the other board.
+
+| Program | Enrollment board group | Session board group |
+|---|---|---|
+| 5 Levels of Leadership | `topics` | `topics` |
+| 7 Habits of Highly Effective People | `group_mm6j38bv` | `group_mm6jwaj5` |
 
 The **Employee Directory** (`18003250999`, HR workspace) is **read-only** — the
 app never writes to it.
@@ -117,18 +125,42 @@ is confirmed by the manager at enrollment and stored on the enrollment record.
 
 ---
 
+## Programs
+
+| Program | Sessions | Criteria per session | Source |
+|---|---|---|---|
+| The 5 Levels of Leadership | 6 | 3 | John C. Maxwell |
+| The 7 Habits of Highly Effective People | 9 | 4 | Stephen R. Covey |
+
+The manager picks the program at enrollment; the two tracks are entirely
+separate enrollments and never mix.
+
+7 Habits sessions also carry a `sourceMaterial` block — the SKOOL lesson the
+trainee prepared from (preparation, case study, application activity, key
+takeaways) plus the reference article where one exists. It renders as a
+collapsed "What the trainee prepared" panel above the discussion blocks, so the
+manager never has to leave the portal to look something up. The field is
+optional; 5 Levels omits it.
+
 ## Adding another book
 
-1. Add `programs/<your-book>.json` matching the shape of
-   `5-levels-of-leadership.json`. Each session needs exactly **3 blocks** and
-   exactly **3 success criteria** — `lib/programs.ts` validates this at startup.
+1. Add `programs/<your-book>.json` matching the shape of an existing program.
+   Each session needs exactly **3 blocks** (three Block Rating / Block Notes
+   column pairs exist on the board) and a **consistent number of success
+   criteria**, at most `MAX_CRITERIA`. `lib/programs.ts` validates both at
+   startup. Programs may differ from each other in criterion count.
 2. Import it in `lib/programs.ts` and add it to `REGISTRY`.
-3. Create a group on **both** boards and add `'<program-id>': '<group-id>'` to
-   `PROGRAM_GROUPS` in `lib/config.ts`.
+3. Create a group on **both** boards and add both ids to `PROGRAM_GROUPS` in
+   `lib/config.ts` — they will not match.
 
 No schema changes, no UI changes. monday columns are deliberately generic
-(`Criterion 1/2/3`, `Block 1/2/3 Notes`); the human-readable label comes from the
+(`Criterion 1..4`, `Block 1/2/3 Notes`); the human-readable label comes from the
 JSON at render time.
+
+If a new book needs more criteria than the board has checkbox columns, add a
+`Criterion N` checkbox column in monday and append its id to
+`SESSION_BOARD.columns.criterion`. Everything downstream (form, validation,
+write path) sizes itself off that array and the program's own criterion count.
 
 ---
 

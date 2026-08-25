@@ -19,6 +19,27 @@ export interface Block {
   prompts: Prompt[];
 }
 
+/**
+ * A block of source material shown to the manager alongside the discussion
+ * guide: the SKOOL lesson the trainee prepared from, and the optional
+ * reference article. Rendered as collapsible panels so the guide stays the
+ * primary view.
+ */
+export interface SourceSection {
+  heading: string;
+  paragraphs: string[];
+}
+
+export interface SourceReference {
+  title: string;
+  paragraphs: string[];
+}
+
+export interface SourceMaterial {
+  skool: SourceSection[];
+  reference: SourceReference | null;
+}
+
 export interface ProgramSession {
   sessionNumber: number;
   code: string;
@@ -35,6 +56,8 @@ export interface ProgramSession {
   gateLabel: string;
   successCriteria: string[];
   nextStep: string;
+  /** Optional; programs onboarded before source material was captured omit it. */
+  sourceMaterial?: SourceMaterial;
 }
 
 export interface Program {

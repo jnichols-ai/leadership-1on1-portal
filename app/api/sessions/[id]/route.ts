@@ -4,6 +4,7 @@ import { getEnrollmentDetail, getSessionRecord } from '@/lib/monday';
 import { submitSession, assertManagerOwns } from '@/lib/enrollment';
 import { getProgram, getSession } from '@/lib/programs';
 import { apiError, badRequest } from '@/lib/http';
+import { MAX_CRITERIA } from '@/lib/config';
 import type { SubmitSessionPayload } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
@@ -66,12 +67,15 @@ export async function POST(
     ) {
       return badRequest('Notes are required for all three discussion blocks');
     }
+    // The exact count is program-specific and is enforced in submitSession,
+    // which knows the enrollment's program. Here we only bound it.
     if (
       !Array.isArray(body.criteria) ||
-      body.criteria.length !== 3 ||
+      body.criteria.length < 1 ||
+      body.criteria.length > MAX_CRITERIA ||
       body.criteria.some((c) => typeof c !== 'boolean')
     ) {
-      return badRequest('criteria must be three booleans');
+      return badRequest(`criteria must be 1-${MAX_CRITERIA} booleans`);
     }
     if (!body.meetingDate || !/^\d{4}-\d{2}-\d{2}$/.test(body.meetingDate)) {
       return badRequest('meetingDate must be YYYY-MM-DD');

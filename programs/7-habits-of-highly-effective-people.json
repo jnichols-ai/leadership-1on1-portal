@@ -1,0 +1,1227 @@
+{
+  "programId": "7-habits-of-highly-effective-people",
+  "programName": "The 7 Habits of Highly Effective People",
+  "sourceAuthor": "Stephen R. Covey",
+  "description": "Nine-session supervisor-led 1:1 certification track built on The 7 Habits of Highly Effective People. Manager-facing discussion guide, trainee prep material, and sign-off gate for each lesson.",
+  "sessionCount": 9,
+  "cadenceDays": 7,
+  "startOffsetDays": 7,
+  "meetingDurationMinutes": 30,
+  "awardsCertification": true,
+  "certificationName": "7 Habits of Highly Effective People Certification",
+  "mondayGroupTitle": "7 Habits of Highly Effective People",
+  "ratingScale": [
+    {
+      "value": 1,
+      "label": "Not demonstrated"
+    },
+    {
+      "value": 2,
+      "label": "Emerging"
+    },
+    {
+      "value": 3,
+      "label": "Demonstrated"
+    }
+  ],
+  "sessions": [
+    {
+      "sessionNumber": 1,
+      "code": "7H-L1",
+      "sourceFile": "7 Habits Lesson 1 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Lesson 1",
+      "title": "Paradigms, Principles, & Practices",
+      "level": "Paradigms & Principles",
+      "prepMinutes": 3,
+      "purpose": "Help the employee identify a flawed assumption/mental map and shift their mindset toward a concrete, principle-centered daily habit modification.",
+      "coreConcept": "Effectiveness must be addressed from the inside out. When an employee operates with an inaccurate mental map (paradigm), working harder or trying to \"think positive\" only drives them to the wrong destination faster.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Recognition that doubling effort on a flawed process or assumption leads to burnout rather than results. Look for willingness to question baseline assumptions rather than blaming team members or external systems.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In Lesson 1's video, Dr. Covey notes that positive thinking on a wrong map doesn't work. Looking at Morgan's case study—and our own operations—when have you found yourself working harder and harder on an outdated or broken 'map' before changing your approach?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"When a project or target isn't hitting benchmarks, what is the danger of assuming our people or tools are broken before examining our assumptions?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their completed Paradigm Audit & Pre-Assessment Data Scan (pages 2–4 of their PDF pre-assessment report).",
+          "whatToLookFor": "A specific, data-backed Habit gap where their baseline score is low or below benchmark, accompanied by an explicit \"old mental map\" assumption.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"If your 'Inside-Out Action' sounds generic (e.g., 'I will communicate better'), what specific routine, calendar item, or habit are you modifying this week to prove your mental map has aligned with reality?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Discuss a relationship or workplace scenario where the employee has been judging someone harshly. Apply the \"subway story\" lens to discover the background behind their behavior and adjust the employee's approach this week.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Agree on a specific touchpoint during the next weekly check-in to evaluate whether the employee's mental map shift produced a positive change in behavior or output."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 2 if they:",
+      "successCriteria": [
+        "Distinguishes between changing a surface behavior versus altering an underlying paradigm.",
+        "Shares Pre-Assessment report statistics openly and pinpoints a clear growth opportunity.",
+        "Understands that doubling effort with an inaccurate map increases the rate of failure.",
+        "Commits to a concrete, daily habit modification to fix their targeted gap."
+      ],
+      "nextStep": "Direct them to begin Lesson 2: 7 Habits Overview & P/PC Balance.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: Locate the introductory chapter \"Paradigms and Principles — Inside-Out\". Read the following sub-sections:",
+              "– The Personality and Character Ethics (pp. 18-20)",
+              "– Primary and Secondary Greatness (pp. 21-22)",
+              "– The Power of a Paradigm (pp. 23-29)",
+              "– The Power of a Paradigm Shift (pp. 29-31)",
+              "– \"Look for\" Question (Reading): Dr. Covey’s analysis of 200 years of success literature revealed a dramatic shift in focus after World War I. What fundamental difference separates the \"Character Ethic\" from the \"Personality Ethic\"?",
+              "• Video Lesson: Watch Dr. Covey's lesson on the Power of a Paradigm Shift (00:01 - 08:43)",
+              "– \"Look for\" Question (Video): Listen to the story of the man on the subway. What happened to Dr. Covey’s attitude and behavior the moment he discovered the truth about the family's situation, and why didn't it require a long, forced effort to change?"
+            ]
+          },
+          {
+            "heading": "II. Case Study: Driving with the Wrong Map",
+            "paragraphs": [
+              "Read the following scenario and consider how our mental maps govern our actions.",
+              "Morgan is an incredibly hardworking supervisor who was given a broken tracking process to manage the team's weekly output.",
+              "Because the tracking system is deeply flawed, Morgan's reports are constantly inaccurate. To fix the problem, Morgan doubles down on effort: staying late, pushing the team to input data faster, and running high-energy morning huddles to \"boost morale.\"",
+              "Despite Morgan's positive attitude and massive work ethic, the data remains broken, the team is burned out, and targets are continuously missed.",
+              "Morgan concludes, \"I am doing everything right; the system is just impossible, and the team lacks discipline.\"",
+              "Reflection Questions:",
+              "1. According to Dr. Covey's map analogy (paradigm), why is Morgan's strategy of \"doubling speed\" and \"thinking positively\" failing to produce the right results?",
+              "2. How is Morgan's current worldview (paradigm) regarding the team's \"lack of discipline\" blinding Morgan to the actual defect in the tracking system?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The Paradigm Audit & Data Scan",
+            "paragraphs": [
+              "Real effectiveness requires an inside-out approach, ensuring we challenge our mental maps (paradigms) before we try to modify our behaviors or attitudes.",
+              "Activity: Open your 6-page Pre-Assessment PDF report. Scan your category scores on pages 2–4 and compare them directly against the past participant Benchmarks.",
+              "Identify one Habit where your score is either below the Benchmark or represents your lowest personal score on the report. Fill out the audit below using your data:",
+              "1. Target Habit: Record the specific habit and write down your baseline score versus the benchmark score from your PDF.",
+              "2. Broken Map: Reviewing the individual question data within this category, what is an inaccurate assumption or \"old mental map\" you have been operating under regarding this habit?",
+              "3. The Shift: If you were to look at this specific gap through the lens of your team or supervisor (assuming positive intent on their part), how does your perspective change?",
+              "4. Inside-Out Action: What is one concrete adjustment you will make to your daily routine this week to align your \"mental map\" with reality?"
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• Your Map Governs Our Action: If your paradigm (map) is inaccurate, fixing your attitude or behavior will not save you. Accuracy of vision must precede effort.",
+              "• We See the World as We Are: We project our own conditioning, experiences, and background onto our external environment and assume that is \"reality.\"",
+              "• Paradigm Shifts: Real growth doesn't always happen through slow, incremental behavioral changes; it often happens instantly when we choose to change the lens through which we view a problem."
+            ]
+          }
+        ],
+        "reference": null
+      }
+    },
+    {
+      "sessionNumber": 2,
+      "code": "7H-L2",
+      "sourceFile": "7 Habits Lesson 2 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Lesson 2",
+      "title": "7 Habits Overview & P/PC Balance",
+      "level": "P/PC Balance",
+      "prepMinutes": 3,
+      "purpose": "Stop the employee from sacrificing long-term capability for short-term gains, while guiding them to operate from an Interdependent leadership mindset.",
+      "coreConcept": "Sustainable effectiveness requires maintaining harmony between P (Production of desired results) and PC (Production Capability—the asset/resource that produces results).",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Understanding that Pat's failure wasn't an accident, but a direct violation of the P/PC Balance. They should recognize that treating human or physical assets purely for short-term output destroys future capacity.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In Pat's case study, short-term production was prioritized while the team and equipment were run into the ground. Where in our current operations do you feel we are most tempted to sacrifice our 'PC' (long-term capability) for a short-term 'P' (immediate result)?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"How do high-performing team members react when a supervisor cares only about immediate metrics (P) and ignores employee burnout or broken tools (PC)?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their Three-Part Habit Audit (Knowledge, Skill, Desire) and their identified P/PC Imbalance.",
+          "whatToLookFor": "A real-world example of imbalance in their workflow (e.g., neglecting physical energy, failing to train team members, or skipping maintenance) rather than theoretical answers.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"Your plan mentions managing time better, but what specific 'PC' asset (equipment, health, relationship, training) are you explicitly scheduling time to maintain or upgrade this week?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Review their P/PC Action Plan. Lock in one concrete operational adjustment this week to invest directly in Production Capability.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Agree on an objective metric or observation check for the supervisor to monitor, ensuring the employee doesn't slip back into a \"results-only\" (P) mindset."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 3 if they:",
+      "successCriteria": [
+        "Defines the difference between P (Results) and PC (Asset Maintenance) in their own words.",
+        "Identifies a genuine, data-backed area of P/PC imbalance in their daily responsibilities.",
+        "Understands that personal growth moves from Dependence to Independence, but leadership requires Interdependence.",
+        "Has a supervisor-approved action to invest in a specific Production Capability (PC) asset this week."
+      ],
+      "nextStep": "Direct them to begin Lesson 3: Be Proactive.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: Locate the chapter titled \"The 7 Habits—An Overview\". Read the following sub-sections:",
+              "– \"Habits\" Defined (pp. 47-48)",
+              "– The Maturity Continuum (pp. 48-52)",
+              "– Effectiveness Defined (pp. 53-54)",
+              "– Three Kinds of Assets (pp. 54-57)",
+              "– Organizational PC (pp. 57-59)",
+              "– \"Look for\" Question (Reading): Dr. Covey uses Aesop’s fable of the Goose and the Golden Egg to establish the definition of effectiveness. What happens to an organization's long-term output when a leader prioritizes short-term results (P: Production) while completely neglecting the asset's capability to produce (PC: Production Capability)?",
+              "• Video Lesson: Watch Dr. Covey's lesson on the Maturity Continuum (14:40 – 25:15).",
+              "– \"Look for\" Question (Video): Dr. Covey breaks down the three stages of human development: Dependence, Independence, and Interdependence. Why does he argue that true organizational teamwork and leadership can only exist at the stage of Interdependence?"
+            ]
+          },
+          {
+            "heading": "II. Case Study: Pushing for the Golden Eggs",
+            "paragraphs": [
+              "Read the following scenario and consider how the P/PC Balance applies to managing resources and people.",
+              "Pat is a highly ambitious department supervisor who is determined to hit record-breaking performance numbers this quarter.",
+              "To achieve this, Pat schedules the team for maximum capacity every day. To save time, Pat postpones all scheduled equipment maintenance, cancels weekly professional development huddles, and dismisses team members' complaints about physical fatigue or software glitches, telling them to \"just push through for the numbers.\"",
+              "For the first two months, Pat's department hits record-high numbers (the golden eggs).",
+              "However, in the third month, two critical software systems crash due to lack of updates, three top-performing employees quit due to burnout, and the department's output plummets to an all-time low.",
+              "Pat complains to upper management, \"I gave them a winning strategy, but the team and the equipment just failed me.\"",
+              "Reflection Questions:",
+              "1. In this scenario, what specifically represents P (Production) and what represents PC (Production Capability)?",
+              "2. Pat attempted to run a high-performing department from a mindset of absolute Independence (\"My strategy, my numbers\"). Based on the reading, why must a leader shift to an Interdependent paradigm to prevent this type of operational collapse?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The P/PC & Habit Diagnostic",
+            "paragraphs": [
+              "True effectiveness requires a constant balance between P (the production of desired results) and PC (the production capability, or the asset/resource that produces those results). Activity: Return to your 6-page Pre-Assessment PDF report. Look closely at your baseline scores across the habits. Reflect on your current workflow and identify an area where your \"Goose\" (your physical energy, your team's morale, your critical equipment, or an important professional relationship) is being neglected to chase immediate \"Golden Eggs\".",
+              "• The Current Imbalance: Describe a specific task or metric where you are over-focusing on immediate results (P) at the expense of long-term capability (PC).",
+              "• The Three-Part Habit Audit: To correct this imbalance, you must build a sustainable habit. Break down this target area using Covey’s three components of a habit:",
+              "1. Knowledge (The What/Why): What core principle do you need to understand better to fix this?",
+              "2. Skill (The How): What tactical process or technique do you need to master?",
+              "3. Desire (The Want): What is your internal motivation to stick to this change long-term?",
+              "• The P/PC Action Plan: List one specific action you will take this week to invest directly in your PC (Production Capability) to protect your future results."
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• The P/PC Law: True effectiveness is a function of a balance. If you focus only on golden eggs, you destroy the asset. If you focus only on the goose, you lack the means to produce. Both must be managed simultaneously.",
+              "• Independence is Not the Pinnacle: Society praises independence, but it is not the highest level of growth. Independent people can be excellent individual producers, but they make poor leaders because they struggle to collaborate. Leadership requires interdependence.",
+              "• The Component Rule: To permanently alter a routine, you cannot just want it (Desire) or know how to do it (Skill); you must clearly define the \"what\" and the \"why\" (Knowledge)."
+            ]
+          }
+        ],
+        "reference": null
+      }
+    },
+    {
+      "sessionNumber": 3,
+      "code": "7H-L3",
+      "sourceFile": "7 Habits Lesson 3 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Lesson 3",
+      "title": "Be Proactive",
+      "level": "Habit 1 – Be Proactive",
+      "prepMinutes": 3,
+      "purpose": "Pivot the employee away from venting about external limitations and guide them to execute an immediate, self-directed solution using the Hidden-Resource Finder.",
+      "coreConcept": "Proactive leaders focus their time and energy inside their Circle of Influence rather than complaining about things in their Circle of Concern. They take ownership using Resourcefulness and Initiative (R&I).",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Recognition of reactive \"Circle of Concern language\" (\"My hands are tied,\" \"Upper management won't let us\"). The employee should see that dwelling on external barriers causes their Circle of Influence to shrink.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In the video, Dr. Covey talks about teams that sit around 'swapping war stories' and complaining about things they can't control. Where do you think our teams are most tempted to focus on the Circle of Concern instead of taking initiative inside their Circle of Influence?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"What happens to the morale of a service team when their direct supervisor constantly models the belief that they are helpless victims of company policies or outside departments?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Audit their Hidden-Resource Finder across all 4 categories (People, Budget, Knowledge, Technology/Tools).",
+          "whatToLookFor": "Concrete proactive leverage points generated under each category for a real operational roadblock.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"We know what the outside barrier is, but looking at your 4 categories, what is one specific action you can take right now using your own initiative without waiting for someone else to change first?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Lock in their chosen Proactive Move to be executed immediately within their Circle of Influence.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Establish a clear metric or timeline to verify the operational impact of this move during the next weekly touchpoint."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 4 if they:",
+      "successCriteria": [
+        "Distinguishes between reactive Circle of Concern language and Proactive Circle of Influence language.",
+        "Completes a 4-category Hidden-Resource Audit for a real operational challenge.",
+        "Eliminates \"victim mentality\" Circle of Concern statements when discussing departmental challenges.",
+        "Commits to their Proactive Move executed entirely within their Circle of Influence."
+      ],
+      "nextStep": "Direct them to begin Lesson 4: Begin With the End in Mind.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: Locate the chapter titled \"Habit 1: Be Proactive\". Read the following sub-sections:",
+              "– Proactivity Defined (pp. 78-82)",
+              "– Taking the Initiative (pp. 82-83)",
+              "– Act or Be Acted Upon (pp 83-85)",
+              "– Listening to Our Language (pp. 85-88)",
+              "– Circle of Concern / Circle of Influence (pp. 88-92).",
+              "– \"Look for\" Question (Reading): What is the fundamental difference between a person's Locus of Control being internal (proactive) versus external (reactive), and how does a reactive person's focus naturally limit their ability to choose their responses?",
+              "• Video Lesson: Watch Dr. Covey's lesson on the Circle of Influence (00:07 – 13:36).",
+              "– \"Look for\" Question (Video): Listen to the story of \"Ben\" and the controlling, dictatorial organization president. Instead of joining the other managers in swapping war stories and complaining about the president's weaknesses, how did Ben use his strengths to change his operational reality?"
+            ]
+          },
+          {
+            "heading": "II. Case Study: The Trapped Coordinator",
+            "paragraphs": [
+              "Read the following scenario and consider how proactive language and the Circle of Influence apply.",
+              "Jordan is a newly promoted coordinator who is struggling to get two departments to align on weekly data entry. The other department head frequently ignores Jordan's emails, misses entry deadlines, and provides incomplete figures.",
+              "Jordan feels entirely stuck and can be heard saying in the office: \"They won't give us the clean data. I don't have the positional authority to force them to hit the deadlines. My hands are tied, and if only upper management would step in and fix their process, we could actually hit our targets.\"",
+              "Because Jordan spends all energy worrying about the other department's lack of discipline and waiting for executives to provide a solution, the data tracking gets progressively worse.",
+              "Jordan's own team begins to lose morale, assuming that missing targets is simply an inevitable consequence of an \"impossible corporate system.\"",
+              "Reflection Questions:",
+              "1. Reviewing the phrases Jordan uses, identify the specific Roadblock Language. How does this language strip away Jordan's resourcefulness and initiative (R&I)?",
+              "2. Using the video's framework, explain how Jordan's intense focus on the Circle of Concern (the other department's behavior and lack of authority) is actively causing the team's Circle of Influence to shrink."
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The Hidden-Resource Audit",
+            "paragraphs": [
+              "Proactive managers focus their energy directly on their Circle of Influence.",
+              "When faced with a roadblock, they expand their options by using the Hidden-Resource Finder to identify leverage points across four distinct categories (see the example below) so they can overcome obstacles and accomplish their goals.",
+              "Activity: Identify one major operational roadblock or communication breakdown you are currently facing in your role.",
+              "Write that specific issue in the center of your Hidden-Resource Finder.",
+              "• My Core \"Challenge\": ___________________________",
+              "Then, use the explicit Hidden-Resource Questions below to map out your Circle of Influence options:",
+              "• People",
+              "– Who could help us?",
+              "– Who has interests or goals that are aligned with ours?",
+              "– Whose view of this challenge is totally different from ours?",
+              "– Who else could we brainstorm with?",
+              "• Budget",
+              "– Suppose the existence of the entire organization depended on this project. What would we do to get the budget?",
+              "– No budget? No approval? We just haven't talked to the right people yet. Who else could we talk to?",
+              "– What kind of business case do we need to make that would persuade people to give us the budget?",
+              "– What partnerships could we form to get the budget?",
+              "• Knowledge",
+              "– What don't we know that we need to know?",
+              "– If we could ask anyone in the world about this, whom wоuld we contact?",
+              "– What's the best, richest, most up-to-date source of information on the subject? How do we get to it?",
+              "– Imagine that these obstacles didn't exist-how would we proceed?",
+              "• Technology/Tools",
+              "– What tools and technology do we need?",
+              "– What tools and technology do we have access to?",
+              "– If we had our choice of technology, what would we use?",
+              "– Who has it? What's in it for them to provide us with their use?",
+              "• The Proactive Move: Reviewing your options above, select one immediate action you can execute now that relies entirely on your own choice and initiative, not on someone else changing first. Here is an example of what a Hidden Resource Finder can look like:"
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• Language is a Clue: Your words reveal your perceived locus of control. Reactive language (\"I have to,\" \"My hands are tied\") abdicates responsibility, while proactive language (\"I choose to,\" \"Let's look at our alternatives\") claims ownership of the outcome.",
+              "• The Law of the Harvest: You cannot choose your consequences, but you can choose your actions. Proactive leaders focus on their actions and accept the natural principles that govern the results.",
+              "• The Power of the Buffer: Like Ben in the video, proactive leaders do not let their output be a function of other people's weaknesses or bad habits. They use their strengths to complement and buffer organizational gaps."
+            ]
+          }
+        ],
+        "reference": null
+      }
+    },
+    {
+      "sessionNumber": 4,
+      "code": "7H-L4",
+      "sourceFile": "7 Habits Lesson 4 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Lesson 4",
+      "title": "Begin With the End in Mind",
+      "level": "Habit 2 – Begin With the End in Mind",
+      "prepMinutes": 3,
+      "purpose": "Ensure the employee steps back from task-level busyness to align their unique talents with the company's core strategic goals via their Worker Contribution Statement.",
+      "coreConcept": "All things are created twice (first mentally by design, then physically by execution). Leadership is the first creation (doing the right things); Management is the second creation (doing things right).",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Realization that running fast means nothing if the ladder is leaning against the wrong wall. Efficiency is not a substitute for strategic clarity.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"Looking at Alex's case study—where the team was flawlessly executing an outdated service model—where in our daily operations are we most at risk of focusing so much on task efficiency (Management) that we lose sight of our broader directional goals (Leadership)?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"How can you spot the warning signs when you or your team are getting trapped in second-creation firefighting at the expense of first-creation directional alignment?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their completed Worker Contribution Statement (built using the 4 diagnostic prompts: Past Impact, Current Need, Unique Edge, Meaningful Leadership).",
+          "whatToLookFor": "Alignment between the employee's unique talents and the actual job that needs to be done now in the business. It should be a clear, high-impact commitment, not a generic personal manifesto.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"How does this Worker Contribution Statement solve a real friction point for our clients or department right now, and how will we measure its success?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Commit to a timeline for sharing their Worker Contribution Statement with their team.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Sign off on their Worker Contribution Statement and schedule a 30-day check-in to review implementation."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 5 if they:",
+      "successCriteria": [
+        "Articulates the difference between first-creation Leadership and second-creation Management.",
+        "Presents a clear, high-impact Worker Contribution Statement.",
+        "Connects their Worker Contribution Statement directly to their personal talents and the primary operational needs of the organization.",
+        "Commits to a timeline for sharing their Worker Contribution Statement with their direct team."
+      ],
+      "nextStep": "Direct them to begin Lesson 5: Put First Things First.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: Locate the chapter titled \"Habit 2: Begin with the End in Mind\". Read the following sub-sections:",
+              "– All Things Are Created Twice (pp. 113-114)",
+              "– By Design or Default (p. 114)",
+              "– Leadership and Management (pp. 114-117)",
+              "– A Personal Mission Statement (pp. 120-122)",
+              "– A Principle Center (pp. 136-142).",
+              "– \"Look for\" Question (Reading): Dr. Covey states that leadership is the \"first creation\" and management is the \"second creation.\" What is the core operational difference between leadership and management, and what occurs when a team is over-managed but under-led?",
+              "• Video Lesson: Watch Dr. Covey's lesson on Personal Mission Statements (00:07 – 05:25).",
+              "– \"Look for\" Question (Video): Dr. Covey outlines the public life, the private life, and the deep inner life. What defines the \"deep inner life\"?"
+            ]
+          },
+          {
+            "heading": "II. Case Study: Leaning the Ladder on the Wrong Wall",
+            "paragraphs": [
+              "Read the following scenario and consider how the principles of Design vs. Default and Leadership vs. Management apply.",
+              "Alex is an incredibly efficient supervisor who has streamlined all internal workflows, created rigid daily operational checklists, and cut service turnaround times by 15% across the board.",
+              "Alex's team is moving faster than ever, hitting their daily physical quotas and checking every execution box perfectly.",
+              "However, Alex never pauses to analyze shifting company goals or changing client demands.",
+              "Over the last two quarters, client satisfaction has plummeted because the team is flawlessly executing an outdated service model that customers no longer want or need.",
+              "Alex is completely blindsided and defensive, stating: \"We are managing our daily tasks perfectly, running at maximum speed, and hitting our baseline numbers. The system and the clients are just being difficult.\"",
+              "Reflection Questions:",
+              "1. How is Alex focusing on the \"second creation\" (management) while failing at the \"first creation\" (leadership)?",
+              "2. How does operating from a default reactive baseline instead of a deliberate design blueprint explain why Alex's team is efficiently climbing a ladder that is leaning against the wrong wall?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: Your Personal Mission Statement",
+            "paragraphs": [
+              "True effectiveness requires separating yourself from the social mirror (pp. 75-76) so you can act from a stable, unchanging Principle Center (pp. 136-142).",
+              "Step 1: The Personal Mission Statement",
+              "Click here to build your Personal Mission Statement",
+              "• Work through the prompts to identify your foundational values and purpose.",
+              "• Once generated, copy your statement. Step 2: Review These Work Contribution Statements",
+              "Chair of state board of education: To raise educational standards in the state, specifically in the areas of teacher qualifications, growth-model accountability, and special-education definition.",
+              "Jack Welch, former CEO, General Electric: To make GE the world's most competitive enterprise.",
+              "John Wooden, former basketball coach, UCLA: To help my students and players make the effort to become the best persons that they are capable of becoming.",
+              "Product development manager: I created the stable of products that helped our company reach $500 million in sales and established a world-class, sustainable innovation capability.",
+              "School principal: No child will be left behind in reading-all students will read at grade level by graduation.",
+              "Stock-brokerage manager: I hope through creativity, hard work, and wisdom to embed enduring principles of long-term financial success in the minds and hearts of the team members I manage. I hope it will be said of me when I am gone that I was a successful teacher and mentor, enabling each team member and client interested in achieving financial success to have it.",
+              "Meg Whitman, CEO, eBay: To create the world's largest e-commerce company with $30 billion in sales.",
+              "Materials-handling supervisor: A strong belief in the team; strong team unity. UK government minister: Through greater enterprise to create the networks of collaborating businesses, professionals, universities, and venture capitalists that will underpin the jobs and wealth on which the prosperity of our country will be founded in the future.",
+              "Roh Moo-hyun, President, Republic of Koreа: To form in Northeast Asia a community of prosperity, and through it, evolve into a community of peace.",
+              "Step 3: Your Work Contribution Statement",
+              "To define the highest and best impact you can deliver right now as a leader within this organization, answer the following diagnostic questions honestly:",
+              "• Past Impact: What great contributions have you made in past professional roles?",
+              "• The Current Need: What is the job that needs to be done now within your immediate department or team?",
+              "• Unique Edge: What unique talents do you possess that can directly help you make that contribution?",
+              "• Meaningful Leadership: What would make your specific management role more meaningful to you personally?",
+              "Review your answers above. Sum up the significant contribution you want to make in your current role at work in one concise, high-impact paragraph:",
+              "My Work Contribution Statement: \"My purpose is to...\""
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• Management vs. Leadership: Management is efficiency in climbing the ladder; leadership determines if the ladder is leaning against the right wall. Efficiency means nothing if the direction is wrong.",
+              "• The Deep Inner Life: Real personal authority does not stem from external human relations techniques (Personality Ethic). It is forged through deliberate alignment of the Principle Center within your deep inner life.",
+              "• Design or Default: If you do not proactively write down and define your Work Contribution Statement, you inadvertently live out a script written by your childhood conditioning, your environment, or other people's expectations by default."
+            ]
+          }
+        ],
+        "reference": {
+          "title": "Habit 2: Begin With the End in Mind® — 6 Steps to Shape Your Reputation at Work",
+          "paragraphs": [
+            "Plenty of people jump into their roles—doing their daily tasks and responding to requests—without putting much thought into what they want in their lives or careers and the meaningful contribution they want to make. So, what do you want to be known for? When you deliberately determine the impact you want to make, you’ll have a positive outcome to work toward—and be able to prioritize the actions that are most likely to help you get the results you want.",
+            "1. Write down the attributes you want to embody and convey to others. Do you want to be known for being trustworthy, for being strategic and innovative, for building a collaborative and close-knit team culture, or for something else entirely? To narrow down your ideas, ask yourself questions like:",
+            "• What do I already do well? Sometimes it’s hard for people to see their strengths because they take them for granted. If you can’t easily name one or two of your strengths, then consider: What do you tend to get recognition for? Try listening to the words that others use when they give you feedback on your style or performance. Do you notice any patterns?",
+            "• What motivates me at work? You’ll want to incorporate this into your reputation so your everyday efforts feel energizing and fulfilling. Write down what drives you at work to remind you of your own motivators.",
+            "• What do I want to accomplish in my career? And what skills will you need in order to get where you want to go? Even if they’re weaknesses now, focusing on them can set you up for future success. For example, if you want to become a high-level leader someday but your verbal communication could use some work, you might decide that you’d like to come across as more persuasive.",
+            "• What do I respect about the successful people around me now or in the past? It can be difficult to pick qualities like “inclusive” or “collaborative” out of thin air. So, start with the specific actions that the successful people take: For example, they make sure to greet everyone when they arrive in the morning or they always ask for my input before making decisions that affect my work.",
+            "2. Use what you’ve written to create a personal mission statement. From what you’ve learned about your own strengths, passions, and goals, and the traits you admire in others, decide what you want to be known for at work. Focus on one or two key aspects that excite you most, will help you get where you want to go in your career, and align with what your team and organization need.",
+            "• Try to keep your statement short and simple. For example: “I want to be known as a collaborative teammate who shares my valuable knowledge and insights.” Use our mission statement builder here.",
+            "3. List the actions you’ll need to take in order to fulfill your mission statement. When you translate your broad statement into specific day-to-day actions, you’ll paint a clear picture of the kinds of tasks and habits that will lead you to achieve your goal. Be sure you add enough detail—including who, what, and by when—so that it’s easy to see if you’re succeeding. For example, if you want to be known for being collaborative:",
+            "• Poor: Work well with my teammates.",
+            "• Better:",
+            "• Offer to set up ongoing check- ins with newly hired teammates to answer questions and share company knowledge.",
+            "• Proactively ask my teammates about their projects—and offer to help them work through challenges.",
+            "• Seek ideas and feedback from colleagues on my own work—and make a point to share how their thinking influences the way my work turns out.",
+            "• Add a regular agenda item to my 1-on-1s with my manager to talk about additional ways I could contribute to team projects. Also list what obstacles you’re likely to encounter when taking these actions and think through ways to overcome them. For example, what will you do if you receive an important project that takes up all of your time, leaving no time to collaborate? Perhaps you could invite teammates with extra time to contribute to your project (or ask your manager to allocate their time)—so you can get extra help now and offer to give them more help later. Habit 2: Begin With the End in Mind: 6 Steps to Shape Your Reputation at Work 3",
+            "4. Communicate how you want to be seen to your manager and peers. When others know your goal (for example, to be more collaborative and share knowledge), they’ll be better equipped to give you feedback on what you’re doing well and where you’re falling short. They may also be able to give you new ideas to help you succeed. For example, you might seek input:",
+            "• From your peers: “I really want to be a good teammate. What else could I be doing to help you reach your goals?”",
+            "• From your manager: “I’d really like to improve how I collaborate with other people on the team, so I can share my institutional knowledge and also benefit from their expertise. Could we talk about some ideas for how I could get better?” For more, see Talk to your manager about a learning goal in your next 1-on-1. Also, sharing your desired reputation can help people learn more about your style and priorities quickly, almost like providing an operating manual that can help others understand your expectations and work with you more effectively.",
+            "5. Align your online profiles and how you introduce yourself with your personal statement. Job candidates, colleagues, clients, and others are bound to seek you out online. You also probably introduce yourself a certain way in meetings and at professional events. Do the messages you’re sending out—both online and in person—align with the personal statement you’re trying to make? If not, make updates. For example, your online profiles might emphasize your former employers, job duties, and educational background. But if there’s nothing there to reflect your personal statement—say, your commitment to collaborating and sharing your knowledge—then add something about it to your summary or list of achievements. Or ask teammates and bosses you’ve helped in the past to write recommendations. Think about the message your photo sends, too. In terms of how you typically introduce yourself, instead of a generic statement, like, “I’m a customer success representative at company X, and I’ve been there for 9 years,” align it with a team-oriented personal statement by saying, “I contribute to the knowledgeable, helpful customer service team at company X.”",
+            "6. Set reminders to reflect on your progress and changes you’d like to make. The best professional statement in the world won’t resonate and take hold if you don’t actually follow through on it. So, it’s critical to periodically look up from your day-to-day work and reflect on how you’re doing. Put reminders on your calendar at appropriate intervals, maybe every few months, to ask yourself questions like:",
+            "• What have I done that’s in line with my desired reputation?",
+            "• What else can I do going forward to reinforce my desired reputation?",
+            "• What have I been spending time on that runs counter to my desired reputation? How can I do less of that in the future?",
+            "• Is my reputation still aligned with what I want to accomplish and/or what my company needs? If not, how should it change? Keep in mind that your personal mission will change over time as you build new skills and advance in your career, as your team changes, and/or as your company’s circumstances and priorities change. Unlock Potential. Unleash Performance. We've reimagined the 7 Habits course to be even more relevant and impactful for today's workers. Among the benefits on a personal level are the principles that can increase individual effectiveness, build strong character, and change behavior in ways that are authentic and lasting. The 7 Habits are based on universal truths and enduring principles. They're grounded in decades of research and development—and based on the best-selling business book of all time. In fact, it's been the top leadership training framework for over 35 years. FranklinCovey is the most trusted leadership company in the world, with operations in over 150+ countries. We transform organizations by building exceptional leaders, teams, and cultures that get breakthrough results. Available through the FranklinCovey All Access Pass® , our best-in-class content, experts, technology, and metrics seamlessly integrate to ensure lasting behavior change at scale. Our approach to leadership has been tested and refined by working with tens of thousands of teams and organizations over the past 30 years. To learn more, email info@franklincovey.com or call us at 1-888-868-1776. Follow us: ©Franklin Covey Co. All rights reserved. MRK24062802 V1.0.0"
+          ]
+        }
+      }
+    },
+    {
+      "sessionNumber": 5,
+      "code": "7H-L5",
+      "sourceFile": "7 Habits Lesson 5 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Lesson 5",
+      "title": "Put First Things First",
+      "level": "Habit 3 – Put First Things First",
+      "prepMinutes": 3,
+      "purpose": "Shift the employee away from \"urgency addiction\" and firefighting, helping them protect calendar blocks for Quadrant II preventative planning.",
+      "coreConcept": "Habit 3 is the physical execution of Habits 1 and 2. Effective leaders manage themselves by organizing and executing around Quadrant II priorities (Important, Not Urgent) rather than reacting to Quadrant I crises or Quadrant III distractions.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Understanding that neglecting Quadrant II (training, audits, relationship building) is the exact root cause of multiplying Quadrant I emergencies.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In Taylor's case study, constant firefighting felt heroics, but led to double the operational errors. Where in our department's current operations are we most at risk of celebrating 'firefighting' instead of rewarding the important prevention work of Quadrant II?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"How can we help you step away from fixing daily problems (Quadrant I) so you can protect time for Quadrant II priorities?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their Quadrant III Audit, Prevention Shift, and Quadrant III Boundary Script (derived from \"A Quadrant II Day at the Office,\" pp. 401–408).",
+          "whatToLookFor": "Identification of specific, low-value Quadrant III/IV time drains to eliminate, paired with a principle-backed boundary script for saying \"no\" to non-essential interruptions.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"If a non-urgent drop-in distraction threatens your protected hour of strategic planning this week, how will you use your boundary script to defend your schedule?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Lock in their Primary Quadrant II Focus and agree on what non-essential tasks they have permission to turn down.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Protect the employee's scheduled Quadrant II time blocks from unnecessary operational pop-ups."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 6 if they:",
+      "successCriteria": [
+        "Defines the operational difference between Urgent (pressing from outside) and Important (value-driven).",
+        "Identifies non-important Quadrant III/IV distractions to eliminate.",
+        "Establishes a protected, non-negotiable block of calendar time for a Quadrant II preventative initiative.",
+        "Obtains supervisor alignment on their boundary script for saying \"no\" to non-essential requests."
+      ],
+      "nextStep": "Direct them to begin Lesson 6: Think Win-Win.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: Locate the chapter titled \"Habit 3: Put First Things First\". Read the following sub-sections:",
+              "– Quadrant II (pp. 172–177)",
+              "– What it Takes to Say \"No\" (pp. 177–180)",
+              "– Moving into Quadrant II (pp. 180–182).",
+              "– The Quadrant II Tool (pp. 182-190)",
+              "– \"Look for\" Question (Reading): Dr. Covey notes that urgent things press upon us and demand immediate attention, while important things require more initiative and proactivity. Why do non-urgent but highly important Quadrant II activities constantly get pushed aside by managers?",
+              "• Video Lesson: Watch Dr. Covey's lesson on living and leading from Quadrant II (00:07 – 08:53).",
+              "– \"Look for\" Question (Video): In the video, Dr. Covey shares a story about trying to give an urgent project to one of his managers. Why did Dr. Covey decide to take the \"urgent\" crisis project to someone else instead?",
+              "– Supplemental Video: Watch \"Big Rocks\" (4:02) and consider in what ways your life and work are falling prey to small rocks."
+            ]
+          },
+          {
+            "heading": "II. Case Study: The Urgent Addiction",
+            "paragraphs": [
+              "Read the following scenario and consider how the Time Management Matrix applies to leadership.",
+              "Taylor is a highly energetic operations supervisor who thrives on solving immediate workplace drama. Taylor’s entire workday is a blur of responding to incoming Slack messages, answering ringing phones, fixing sudden tech glitches, and field-handling minor customer complaints.",
+              "Taylor feels like an absolute hero at the end of each day for constantly \"extinguishing fires.\"",
+              "However, because Taylor is addicted to the rush of immediate emergencies, several baseline responsibilities are routinely neglected: weekly team scheduling is always done at the last minute, preventative maintenance audits on critical tools are skipped, and 1:1 alignment check-ins with team members are continually pushed to \"next week.\"",
+              "Over the last month, systemic operational errors have doubled, team morale has tanked due to chaotic scheduling, and Taylor is burning out from working 60-hour weeks.",
+              "Taylor vents: \"I want to focus on process improvement, but I am completely trapped managing endless fires. I don't have a second to spare.\"",
+              "Reflection Questions:",
+              "• Using the Time Management Matrix, break down which quadrants Taylor is spending the majority of time in versus which quadrant is being completely abandoned.",
+              "• Based on the video lesson, why will Taylor's Quadrant I crises continue to grow larger and more frequent as long as Taylor continues to neglect Quadrant II activities?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: A Quadrant II Day at the Office",
+            "paragraphs": [
+              "True effectiveness requires shifting your focus away from what is merely pressing and proximate, and intentionally protecting time for things that build long-term operational value.",
+              "Activity: Open your book to the supplementary section titled \"A Quadrant II Day at the Office\" (pp. 401–408).",
+              "Read through the narrative of a manager handling a chaotic workday reactively (the traditional Quadrant I script) versus handling the same challenges from a proactive, Quadrant II paradigm.",
+              "Reflect on your own workflow and answer the following diagnostic questions:",
+              "• The Quadrant III Audit: Identify two activities or distractions in your current workday that are Quadrant III (urgent, but not important to your core mission or long-term strategy).",
+              "• The Prevention Shift: A Quadrant II leader spends time building relationships, organizing systems, and preventing problems before they erupt. What is one specific proactive process or relationship check-in you will prioritize this week to prevent a future Quadrant I crisis?",
+              "• The Power to Say \"No\": To gain time for Quadrant II, you must learn to say a polite, principle-backed \"No\" to non-important things. Write out a direct, professional script you will use the next time a non-important Quadrant III/IV item or interruption threatens your schedule this week. (If you feel you could use some extra help learning how to \"Just Say 'No'\", here are a few resources to help: What I've Learned about Saying No | The No Repetoire | Just Say No Tracker)",
+              "My Quadrant III/IV Boundary Script:"
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• The Essence of Independent Will: Habit 1 teaches that you are the programmer. Habit 2 writes the program. Habit 3 is the execution—the physical creation of living out those values on a daily basis.",
+              "• The Urgent Trap: Urgent tasks act on us; they are right in front of us and demand compliance. Quadrant II tasks require absolute proactivity because they are not urgent; you must actively choose to execute them.",
+              "• The Burning \"Yes\" Inside: You can only say a courageous, smiling \"No\" to popular or pressing distractions when you have a deeper, burning \"Yes\" inside regarding your core mission and long-term targets."
+            ]
+          }
+        ],
+        "reference": {
+          "title": "Habit 3: Put First Things First® — Guidelines to Help You Prioritize",
+          "paragraphs": [
+            "You’ve got umpteen tasks on your to-do list with more coming at you from every direction. In some roles and situations, it’s crystal clear what to do by when. But in others, you have to use your discretion and weigh all the options to determine what to prioritize. Understanding your top priorities can help you ensure that you get the most important work done well and on time. These guidelines can help you figure out what to prioritize and how. What could be going on?",
+            "• You haven’t taken the time to define your top priorities and are stuck in reactive mode.",
+            "• Your role and core job responsibilities aren’t well defined, or your role has changed.",
+            "• Some of your duties are so different (or so similar) that it feels impossible to determine their relative importance.",
+            "• You’re trying to determine top priorities on your own instead of reaching out to your manager and other stakeholders for more context.",
+            "• Your manager hasn’t given you enough guidance on top priorities, perhaps because they, too, haven’t received guidance from their leaders.",
+            "1. Brainstorm a list of possible priorities and try identifying the most important. Your top priorities could include your top work goals, what fuels your motivation and long-term growth, what your manager needs, what your team and organization need, what the people you serve need—or, ideally, some combination of these. To generate a list of possibilities, ask yourself:",
+            "• What are my core job responsibilities and measures of success?",
+            "• What are my long-term career goals?",
+            "• What are my strengths?",
+            "• What do I enjoy doing?",
+            "• Where do I most need to improve?",
+            "• What are my manager’s top priorities? How could I support those priorities?",
+            "• What are my team’s top priorities?",
+            "• What are my organization’s top priorities?",
+            "• What are my customers’ or internal stakeholders’ top priorities? Write down everything you can think of and note where you don’t know the answers (and need to further investigate). Is it a long list? If so, you’re not alone. Circle the items that you think are most important so you have a draft list of top priorities before moving on to the next steps.",
+            "2. Get input from your manager. Your boss has a higher-level view of what’s most important to them, your team, and your organization. Even if you think you understand these higher-level priorities, it’s worth checking in with your manager about them to be sure that the top priorities you choose for yourself line up. Depending on your situation, you could start by sharing your draft priority list for discussion and asking your manager questions like:",
+            "• “How does my draft priority list align with how you see my role and job responsibilities?”",
+            "• “In your mind, what does exceptional performance look like for someone in my role? How do you measure that?”",
+            "• “What are some ways I can better support your priorities? The organization’s priorities?”",
+            "• “If I could focus on only three things in the next month/quarter/year, what do you think they should be?” Note: You’re asking for insight on higher-level priorities so that you can determine your own top priorities—you’re not asking your manager to prioritize all the items on your to-do list. (You don’t want a micromanaging boss, and they don’t want a direct report who needs too much hand-holding.) In many cases, you’ll gain clarity by talking with your manager. But if not, hopefully you and your boss can at least agree on how to stay aligned. For example, you might decide to send them weekly updates on your work so they can flag any tasks that seem to be taking you in the wrong direction.",
+            "3. Talk to the people who are impacted by your work and whose work impacts yours. \"Hmm … is it more important for me to test a new product feature this week or work with Armand to draft long-term goals for the DEI committee?\" If you don’t check with the product team and Armand, how will you know? As you talk, look for ways to avoid misalignment (e.g., maybe you decide that testing a new feature is not a priority this week 3 Habit 3: Put First Things First® Guidelines to Help You Prioritize because the person you rely on to recruit testers is focused elsewhere and can’t help now). And explore opportunities to coordinate for greater impact (e.g., when you talk to a teammate, you might learn that you can take advantage of their research efforts to test out your new feature more quickly).",
+            "4. Factor in your own well-being and development. It’s easy to get caught up in the day-to-day rush of work, so you end up gobbling a sandwich at your desk and working through lunch, feeling stretched thin, letting self- care and personal development fall by the wayside. What on your list of potential priorities are you most excited to work on? What skills would you like to learn in order to move up in your career? What well-being priorities— like getting regular exercise, taking care of your mental health, and setting reasonable work/life boundaries—will enable you to stay healthy and engaged with the rest of your work priorities? These things matter.",
+            "5. Whittle down your draft priority list to three or four top priorities to focus on now. As the saying goes, “If everything’s important, then nothing is.” You’ll need to make some tough choices about what not to prioritize and how long those things can wait before they need your attention. It may help to use a process of elimination. Start with any priorities that, after reflection, don’t seem so critical for the next week or month, that won’t help expand your or your team’s capabilities, or that your boss and higher-ups are less focused on right now. If you need more insight into which priorities matter most, ask yourself questions like:",
+            "• Is my boss, my team, or another team depending on me to get something done or to maintain an important system? You can’t let your core responsibilities slide.",
+            "• Will doing this further the priorities of my manager, team, and organization? In general, your priorities should be tied to the big picture and where others focus their time.",
+            "• Will doing this lead to personal or business growth, or greater efficiency or innovation? A priority that helps you or your team gain new ground or streamline a process may be of greater strategic importance. Keep whittling down the list until you have only three or four priorities—and don’t forget the priorities that matter to you personally. For example, your final list might be: 1) Make progress on my most important work goal this month, 2) Get more sleep, 3) Help with a new initiative that’s important to my manager, and 4) Contribute to my teammate’s biggest project.",
+            "6. Use your priorities as a filter to help you order your existing tasks and new ones that come your way. Once you have your new top priorities, put them into action! Compare them to your daily and weekly drumbeat of work tasks as well as requests and emergencies that come your way. Which tasks relate to your list of priorities? Working on those tasks will likely be the highest-value way to spend your time today, this week, and maybe this month. Of course, not everything you do each day will serve your top priorities, but most things should. If a peer makes a nonessential request that’s unrelated to your priorities, you can politely say no or at least propose a longer timeline to complete it so that you can stay focused on your top priorities. If you can’t turn down a task (because it relates to a new, higher priority or your manager needs something right now) or if the task is so big that doing it will require making major time trade-offs, discuss with your boss how to prioritize it relative to your other work.",
+            "7. Reassess your priorities often. When you meet goals or complete projects— or priorities shift for your manager, team, or organization—your own work almost certainly should change, too. If you’re not clear on how, try revisiting this process to determine your top priorities. And check in periodically with your boss and others to fill in information gaps to help you determine what’s important and where you should focus—and, just as importantly, not focus—next. Follow us: ©Franklin Covey Co. All rights reserved. MRK24062803 V1.0.0 Unlock Potential. Unleash Performance. We've reimagined the 7 Habits course to be even more relevant and impactful for today's workers. Among the benefits on a personal level are the principles that can increase individual effectiveness, build strong character, and change behavior in ways that are authentic and lasting. The 7 Habits are based on universal truths and enduring principles. They're grounded in decades of research and development—and based on the best-selling business book of all time. In fact, it's been the top leadership training framework for over 35 years. FranklinCovey is the most trusted leadership company in the world, with operations in over 150+ countries. We transform organizations by building exceptional leaders, teams, and cultures that get breakthrough results. Available through the FranklinCovey All Access Pass® , our best-in-class content, experts, technology, and metrics seamlessly integrate to ensure lasting behavior change at scale. Our approach to leadership has been tested and refined by working with tens of thousands of teams and organizations over the past 30 years. To learn more, email info@franklincovey.com or call us at 1-888-868-1776."
+          ]
+        }
+      }
+    },
+    {
+      "sessionNumber": 6,
+      "code": "7H-L6",
+      "sourceFile": "7 Habits Lesson 6 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Lesson 6",
+      "title": "Think Win-Win",
+      "level": "Habit 4 – Think Win-Win",
+      "prepMinutes": 3,
+      "purpose": "Review the 5-part Win-Win Performance Agreement the employee drafted for an assigned project, ensuring clear alignment on desired outcomes while granting autonomy.",
+      "coreConcept": "Win-Win is a frame of mind that seeks mutual benefit in all interactions. True interpersonal leadership requires shifting from traditional top-down supervision of methods to self-governing accountability focused on results.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Recognition that micromanaging methods treats people like \"gophers\" and destroys initiative, whereas co-defining Desired Results builds self-reliance.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In Chris's case study, dictating every spreadsheet click crushed Jordan's initiative. Where in my current day-to-day tasks do you feel we are most at risk of accidentally misaligning on methods instead of locking in clear directional results?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"When taking on a new assignment, what is the value of explicitly agreeing on what 'success' looks like up front rather than adjusting parameters halfway through execution?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their Win-Win Performance Agreement across all 5 dimensions (Desired Results, Guidelines, Resources, Accountability, Consequences).",
+          "whatToLookFor": "Objective, measurable Desired Results (with explicit standards and deadlines) that leave the Methods open to the employee's initiative.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"You've outlined your Win-Win Performance Agreement. Let's lock in the exact day and tracking method you will use to share your self-evaluation with me each week.\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Win-Win Performance Agreement: Agree on the required Resources, confirm the Guidelines/Boundaries, and finalize the self-evaluation check-in cadence.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Sign off on the 5-part Win-Win Performance Agreement and step back to let the employee manage their own execution."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 7 if they:",
+      "successCriteria": [
+        "Articulates the 5 structural components of a Win-Win Performance Agreement.",
+        "Defines objective Results while keeping Methods open to personal initiative.",
+        "Establishes clear operational boundaries (Guidelines) and support needs (Resources).",
+        "Commits to a recurring accountability rhythm where the employee owns the evaluation."
+      ],
+      "nextStep": "Direct them to begin Lesson 7: Seek First to Understand, Then to Be Understood.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: Locate the chapter titled \"Habit 4: Think Win-Win\". Read the following sub-sections:",
+              "– Emotional Bank Account (pp. 218-220)",
+              "– Six Paradigms of Human Interaction (pp. 237-247)",
+              "– Agreements (pp. 254-255)",
+              "– Win-Win Performance Agreements (pp. 258-260)",
+              "– \"Look for\" Question (Reading): A Win-Win Performance Agreement represents a radical departure from traditional performance management. What occurs when a manager attempts to hold someone accountable for results while strictly micromanaging their methods?",
+              "• Video Lesson: Watch Dr. Covey's lesson on \"Green and Clean\" for an illustration of a Win-Win Performance Agreement (00:07 – 05:51).",
+              "– \"Look for\" Question (Video): In the video, what were the only two criteria used to define the desired results for the yard? When his son did nothing for the first few days, why did Dr. Covey bite his tongue instead of taking over the work or yelling?"
+            ]
+          },
+          {
+            "heading": "II. Case Study: Managing Methods over Results",
+            "paragraphs": [
+              "Read the following scenario and consider how Win-Win Performance Agreements apply.",
+              "Chris is a well-meaning department manager who wants to ensure that a critical weekly tracking report is flawless.",
+              "Chris delegates the report task to Jordan, a new team lead. Instead of outlining what a successful report looks like, Chris sits next to Jordan for two hours, dictating which buttons to press, which spreadsheet colors to use, and what times of day to check the server data.",
+              "After a few weeks of this intense oversight, Jordan stops taking any initiative.",
+              "When a major formatting error occurs on a day Chris is out of the office, Jordan leaves it broken, saying: \"Chris wasn't here to tell me what to do, so I just waited for instructions.\"",
+              "Chris returns and is deeply frustrated, venting to upper management: \"I showed Jordan exactly how I do it step-by-step, but my team completely lacks ownership and can't perform unless I am actively watching them.\"",
+              "Reflection Questions:",
+              "1. Traditional performance management relies on the boss deciding every action step, leading to low motivation. How is Chris's focus on supervising methods instead of co-defining desired results actively crushing Jordan's operational initiative?",
+              "2. In a true Win-Win arrangement, an employee manages themselves against shared criteria. Based on the video, what structural paradigm shift does Chris need to make to transform Jordan from a passive \"gopher\" into a self-governing producer?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The Upward Win-Win Agreement",
+            "paragraphs": [
+              "True effectiveness requires a proactive, inside-out approach. A Win-Win Performance Agreement shouldn't just be handed down from a boss; it can be initiated by an employee when accepting an assignment to ensure they are set up to manage themselves successfully.",
+              "Activity: Identify a core project, key performance indicator (KPI), or core responsibility that you have recently been assigned by your supervisor. Put yourself on the receiving end of this assignment and complete the 5-step framework (from page 254) with your supervisor to make sure your Performance Agreement is really a Win-Win Agreement:",
+              "• My Assigned Project / Responsibility: ___________________________",
+              "1. Desired results (not methods) identify what is to be done and when.",
+              "2. Guidelines specify the parameters (principles, policies, etc.) within which results are to be accomplished.",
+              "3. Resources identify the human, financial, technical, or organizational support available to help accomplish the results.",
+              "4. Accountability sets up the standards of performance and the time of evaluation.",
+              "5. Consequences specify—good and bad, natural and logical—what does and will happen as a result of the evaluation."
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• Methods vs. Results: When a manager dictates methods, they treat you like an object. When they clarify results and let you run, they empower you to act with authority. Proactive leaders clarify results up front to protect autonomy.",
+              "• The High Trust Deposit: Clarifying expectations from the bottom up is a massive deposit into the Emotional Bank Account (pp. 218-220) with your supervisor. It demonstrates professional self-awareness and eliminates the friction of unexpected course corrections.",
+              "• Living Documents: A Win-Win Performance Agreement is a living operational loop. By establishing your own accountability metrics, you shift your supervisor from a \"supervisor of tasks\" into an active resource and mentor."
+            ]
+          }
+        ],
+        "reference": {
+          "title": "Habit 4: Think Win-Win® — 4 Ways to Demonstrate Courage and Consideration at Work",
+          "paragraphs": [
+            "You’re not alone in the race, so there’s no reason to act like you are. Instead, pay close attention to when you should speak up (respectfully) about your views versus seek other people’s perspectives to help them feel included and elevate everyone’s work. It’s common to vary your levels of courage and consideration in different relationships and situations. For example, you might be courageous with a peer, then more considerate minutes later when your boss makes a request. Aim to find the right balance of courage and consideration for all your interactions.",
+            "1. Be open and honest about the things that matter. Would you want a colleague to share information that could stop you from making a terrible decision? Or tell you about the thing you could do differently that would make their job easier? Most people would say, “Of course!” Yet, when it’s time for them to step up and speak their minds, they get scared or make excuses and end up keeping valuable information to themselves. It takes guts to be honest about your needs or perspective—especially if it runs counter to what a group or your boss thinks. But you owe it to yourself, your team, and your organization to poke holes in misguided ideas, to start difficult conversations, and to point out where you need more support. A big part of effectively explaining your position is learning how to do it in a way that others will hear. Your organization has shifted, and new priorities haven’t yet taken shape. To do this with courage and consideration:",
+            "• Lead with questions rather than assertions. People tend to respond less defensively to questions, and their answers may give you important context that could influence your view. For example, if your boss presents a project with an impossible deadline, you might ask: “Could you share more about the thinking that went into the deadline?” or “How would you say this project ranks in priority compared to our security audit project?” Depending on what you hear, you may decide to adjust your message to incorporate some of your boss’s considerations.",
+            "• Emphasize your shared goals, and bring evidence to back up your position. Show that you’re on the other person’s side, even if you have different views on how to achieve shared goals. Then, explain the merits of your ideas. For example: “In the end, we both want the project team to work efficiently. But I’m struggling with how we communicate, and it’s slowing me down. Here’s an idea for how we could better share updates and the impact it would have on my timeline.”",
+            "2. Redirect discussions to give others the chance to share, especially if their perspectives tend to go unheard. It’s easy to let the people who dominate meetings just keep talking rather than invite other participants to get their word in. (And maybe sometimes we’re the one who dominates the conversation). When you ensure that everyone has a chance to share their points of view, you show that surfacing the best ideas is what matters regardless of who offers them or how loudly they’re expressed. That’s what leads people to do great work and feel included and more confident sharing their thoughts. To do this with courage and consideration:",
+            "• Ask overlooked colleagues a well-placed question about their relevant expertise. For example, “Chantal, you’ve worked on similar projects. What are your thoughts on this?”",
+            "• Gently curb interrupters. For example, “That’s an interesting thought. But before we talk about it, I want to be sure that Melina was finished. Melina?”",
+            "• Draw attention to a promising idea that the group is ignoring. For example, “Ashton brings up a good point. Could we spend a few minutes discussing it before we move on?” or “I’d like to go back to the idea Hae- Won brought up earlier—it deserves more consideration. Hae-Won, could you share more about what your approach might look like?” Habit 4: Think Win-Win: 4 Ways to Demonstrate Courage and Consideration at Work 3",
+            "3. Ask for input or advice when you’re not sure what to do (and consider offering help when others are uncertain). Many people worry that expressing uncertainty makes them look weak—especially people who are supposed to be “in charge,” are experts in their field, or are eager to prove themselves. But often, the opposite is true: What weakens us is projecting only certainty because it discourages others from offering the ideas and information we need to perform well. And it limits colleagues by denying them the opportunity to tap their expertise and problem-solving skills for the good of the team. So, when it makes sense, reach out for input to show others that you value and trust their views and that it’s OK to ask for help. And make it clear that in areas where you have expertise, you’re also willing to help colleagues get unstuck. To do this with courage and consideration:",
+            "• Be open about what you don’t know. To get more comfortable expressing uncertainty and to spark ideas from others, try using phrases like “Actually, I’m not sure about the best way forward. What’s your opinion?” Caveat: Don’t be so candid that you come across as incapable (e.g., “I have no idea!”). Especially when talking with your boss or other higher-ups, consider offering an idea first (e.g., “I’m not sure why this is happening. Maybe it’s X or Y. What are some other possible explanations?”) so you don’t come across as asking others to do all the thinking for you.",
+            "• Draw on other people’s expertise. Choose people whose skills or experience make them best suited to help. And be clear about why you’re asking them so they’re not left guessing about your motivations. For example, “Mara, I have a few ideas for improving inventory tracking. I’d love to get your opinion on them, since you have a great understanding of the entire process. Could we find time later this week to talk about it?”",
+            "• When you share your decision or path forward, explain how you used their input. Even if you don’t end up taking people’s suggestions, it’s important to explain how they influenced you. Otherwise, they may wonder why they bothered to spend the time and energy sharing. For example: “Mara, in the end, I decided not to take your suggestion on shelf labeling because we don’t have the budget to redo the labels right now. But your input was incredibly helpful—I now have a better understanding of the scope of the problem.”",
+            "4. Say no rather than give up your needs in favor of others’ requests. Of course you’ll say yes to an outside request that contributes to a critical goal. You might even delay work on some of your other commitments if saying yes would help the greater good, build goodwill with important colleagues, and/or raise your standing. But if you say yes to every request that comes your way, you’re letting other people set your agenda instead of doing what’s truly important for you. Plus, you have limits. If you overcommit instead of saying no, then deadlines could slip and quality suffer, making your saying yes actually less considerate for both the other people and you. To do this with courage and consideration:",
+            "• In a positive tone, start by thanking the person who made the request. After all, they trust and respect you enough to ask for your help! A simple “Thank you for thinking of me. This sounds like an important project” shows your appreciation and support for the person’s needs.",
+            "• Say no firmly—and add what you’re saying yes to. If you say only “Sorry, I’m way too busy!” then the other person may feel dismissed. Instead, show that you’re being thoughtful by explaining that you’re saying no because you’re committed to something very important to you and/or the organization. For example, “I’m sorry, I can’t take that on right now. My big customer project is due Friday, and I’m 100 percent focused on that.”",
+            "• Propose alternative solutions if possible. You don’t have time to fulfill the request, but do you know a connection who can help? Or could the other person delay the ask until you have time to take it on? Your alternatives may be as valuable as your actual help. Follow us: ©Franklin Covey Co. All rights reserved. MRK24062804 V1.0.0 Unlock Potential. Unleash Performance. We've reimagined the 7 Habits course to be even more relevant and impactful for today's workers. Among the benefits on a personal level are the principles that can increase individual effectiveness, build strong character, and change behavior in ways that are authentic and lasting. The 7 Habits are based on universal truths and enduring principles. They're grounded in decades of research and development—and based on the best-selling business book of all time. In fact, it's been the top leadership training framework for over 35 years. FranklinCovey is the most trusted leadership company in the world, with operations in over 150+ countries. We transform organizations by building exceptional leaders, teams, and cultures that get breakthrough results. Available through the FranklinCovey All Access Pass® , our best-in- class content, experts, technology, and metrics seamlessly integrate to ensure lasting behavior change at scale. Our approach to leadership has been tested and refined by working with tens of thousands of teams and organizations over the past 30 years. To learn more, email info@franklincovey.com or call us at 1-888-868-1776."
+          ]
+        }
+      }
+    },
+    {
+      "sessionNumber": 7,
+      "code": "7H-L7",
+      "sourceFile": "7 Habits Lesson 7 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Lesson 7",
+      "title": "Seek First to Understand, Then to Be Understood",
+      "level": "Habit 5 – Seek First to Understand",
+      "prepMinutes": 3,
+      "purpose": "Audit the employee's communication defaults and coach them to drop Autobiographical Responses in favor of Empathic Listening and diagnosis during high-stakes or emotional situations.",
+      "coreConcept": "Effective communication requires Diagnosing before Prescribing. Most leaders listen autobiographically (evaluating, probing, advising, interpreting). True influence requires Empathic Listening—acting as a \"Faithful Translator\" to give psychological air.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Understanding that Autobiographical Responses in sensitive situations create defensiveness. The employee should recognize that saving minutes up front by jumping to solutions wastes weeks of productivity downstream.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In Sam's case study, probing and advising caused Taylor to shut down completely. When have you found yourself accidentally shutting down an employee or peer's initiative by prescribing a solution before they felt completely understood?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"When an employee presents with an operational error or performance drop, what is the operational cost of launching straight into solutions before discovering the real root cause?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their Empathic Listening & Response Audit and their Faithful Translator Reframe.",
+          "whatToLookFor": "A concise reframe (under 5 words) that reflects back the feeling and essence of a friction point without judging, probing, or offering a disguised solution.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"If you are standing next to this person as a faithful translator who cannot add your own past history or judgments, how will you mirror back their true emotional state in very few words so they feel safe to share the real systemic roadblock?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Review the specific workplace relationship or project context where the employee will intentionally use Empathic Listening and avoid Autobiographical Responses.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Agree on when to observe the employee's listening patterns, ensuring they hold the line on Empathic Listening and avoid Autobiographical Responses."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 8 if they:",
+      "successCriteria": [
+        "Distinguishes between the four Autobiographical Responses (Evaluate, Probe, Advise, Interpret) and Empathic Listening.",
+        "Identifies their own primary listening default and connects it to a real workplace relationship gap.",
+        "Drafts a precise, supervisor-approved \"Faithful Translator\" reframe to clear emotional friction.",
+        "Demonstrates commitment to achieving full Diagnosis before offering operational Prescriptions."
+      ],
+      "nextStep": "Direct them to begin Lesson 8: Synergize.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: Locate the chapter titled \"Habit 5: Seek First to Understand, Then to Be Understood\". Read the following sub-sections:",
+              "– Character and Communication (pp. 275-276)",
+              "– Empathic Listening (pp. 276-281)",
+              "– Diagnose Before You Prescribe (pp. 281-282)",
+              "– Understanding and Perception (pp. 291-293)",
+              "– Then Seek to Be Understood (pp. 293-295)",
+              "– One on One (pp. 295-297)",
+              "– \"Look for\" Question (Reading): In the Empathic Listening section, Dr. Covey explains that listening with empathy is a massive deposit into a team member's Emotional Bank Account—a key investment in Production Capability (PC). How does making this upfront investment shift workplace communication from purely transactional to transformational, and why does it ultimately save time and protect team performance?",
+              "• Video Lesson: Watch Dr. Covey's lesson on the continuum of empathy and the Translator Framework (00:07 – 12:25).",
+              "– \"Look for\" Question (Video): Dr. Covey explains that an empathic listener must act like a \"Faithful Translator\" standing next to the speaker. What does a Faithful Translator focus on capturing, and under what three specific conditions does Dr. Covey say you must pause to apply this true Empathic Listening approach?"
+            ]
+          },
+          {
+            "heading": "II. Case Study: Probing the Wound",
+            "paragraphs": [
+              "Read the following scenario and consider how autobiographical listening, rather than Empathic Listening, traps leaders.",
+              "Sam is an operations supervisor managing a high-performing technician named Taylor. Over the last two weeks, Taylor’s data accuracy has dropped sharply, and Taylor has arrived late to several team standups.",
+              "Sam decides to pull Taylor into a private workspace to handle the performance drop.",
+              "Before Taylor can finish explaining the situation, Sam jumps in: \"Taylor, I've noticed you're late, and it looks like a discipline issue to me (Evaluating). Are you having trouble managing your morning alarm, or is there a conflict with your route planning? (Probing)",
+              "Taylor sighs and looks down, muttering that things are just stressful at home.",
+              "Sam instantly responds: \"Look, when I had issues at home early in my career, I just blocked out my personal life during work hours. You need to set a hard boundary and use a dynamic calendar app to map your travel times (Advising). I think you're just feeling overwhelmed because you're letting personal stress dictate your professional standards (Interpreting).\"",
+              "Taylor completely shuts down, stops sharing any details, and meekly says, \"Okay, I'll try harder.\" Over the next month, Taylor's performance nose-dives even further, and trust between Sam and Taylor is entirely broken.",
+              "Reflection Questions:",
+              "1. How did Sam's rapid shift to Prescribing before accurately Diagnosing cause Taylor to completely withdraw from the coaching loop?",
+              "2. How did Sam treat this high-emotion situation, and what was the long-term cost of trying to save time up front?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The Empathic Listening & Response Audit",
+            "paragraphs": [
+              "True leadership communication requires moving out of our own autobiographical frame of reference and stepping into the other person’s mental map to listen with both our eyes and our hearts (Empathic Listening).",
+              "Activity: Reflect on a recent conversation, project challenge, or performance check-in where a direct report, peer, or supervisor was visibly stressed, frustrated, or defensive.",
+              "Audit your own listening defaults and build an empathic realignment plan below:",
+              "• The Communication Friction Point: Briefly describe the individual and the core operational issue or emotional tension involved.",
+              "• The \"Autobiographical Response\" Check: Reviewing your communication history with this person, which of the four autobiographical responses are you most tempted to launch into?",
+              "– Evaluating: Judging whether they are right, wrong, justified, or executing poorly.",
+              "– Probing: Asking questions strictly from your own frame of reference.",
+              "– Advising: Giving counsel, scripts, or action plans based on your own experiences.",
+              "– Interpreting: Trying to figure people out to explain their motives and behavior, based on your own motives or behavior.",
+              "• The \"Faithful Translator\" Reframe: Rewrite your response to this individual using the \"Faithful Translator\" approach from the video. Draft a concise response (under five words) that purely reflects the feeling and essence of their situation without evaluating, probing, advising, or interpreting (the four autobiographical responses).",
+              "My Empathic Phrase: ___________________________",
+              "• Diagnose Before You Prescribe: How will you verify that they feel fully understood (diagnose) before you transition the conversation into an action plan (prescribe)?"
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• Probing is Efficient but Ineffective: Jabbing a vulnerable or highly emotional situation with standard interrogative questions makes people defensive. It saves minutes on your calendar right now but wastes weeks of team performance down the line.",
+              "• Empathy is Not Sympathy: Sympathy is a form of agreement or shared emotion (\"I feel so sorry for you\"). Empathy means deeply understanding the other person's map intellectually and emotionally without necessarily agreeing with their conclusions.",
+              "• The Diagnostic Sequence: You would never trust an eye doctor who hands you a pair of glasses before conducting an objective examination. Yet, as managers, we often prescribe tools, workflows, and fixes before accurately diagnosing with the person or team."
+            ]
+          }
+        ],
+        "reference": {
+          "title": "Habit 5: Seek First to Understand, Then to Be Understood® — 9 Tips to Listen Well and Build Empathy With Coworkers",
+          "paragraphs": [
+            "Most workplace interactions stay at the surface level. This may seem fine—the work gets done, after all. But what insights might you miss by not connecting more deeply with your coworkers? And who might be excluded or feel unsupported when you don’t make the effort to learn what they care about? When you take just a few extra minutes to listen—really listen—and build empathy, you’ll better understand people’s experiences. You’ll open your mind to their diverse perspectives. And your coworkers will feel more heard and respected. Empathy is a muscle you can build through daily interactions. Here are techniques to get started.",
+            "2. Ask curious, open-ended questions to invite meaningful conversation. In the rush of the workday, it’s easy to shut down conversations before they have a chance to take root; you have meetings to get to and tasks to finish, and so does the other person. But even in brief encounters, it’s possible to invite a genuine, substantive exchange. Try asking one or two questions that show you’re interested in learning more about the other person’s perspective. Approach the questions with openness and curiosity—to know what’s happening in their world and how they feel about it. For example, let’s say you see a peer in the break room or start a video call with them about an upcoming project: You: “Hi, Mila, how are you doing?” Mila: “It’s been a pretty stressful week—so much for getting enough sleep!” Poor: You: “Oh, that sounds rough. Good luck.” Mila: “Yeah. Thanks.” Better: You: “It must be stressful if you’re losing sleep. What’s been happening?” Mila: “Well, I have a big presentation to the executive team on Thursday.” You: “That sounds intense. How has your preparation been going?” Habit 5: Seek First to Understand, Then to Be Understood: 9 Tips to Listen Well and Build Empathy With Coworkers 3",
+            "3. Show that you’re paying attention with eye contact and open body language. Turn your phone over. Put down your sandwich. Close those other tabs. And give the conversation your full attention. Especially when you’re speaking with someone outside your usual circles, showing warmth and engagement can help the other person feel comfortable. Keep your body language open, with arms uncrossed, shoulders relaxed, and your body facing the speaker. Send signals that you’re fully participating by nodding to show encouragement or keeping a neutral expression during difficult points. How much eye contact is too much? That depends on your situation and cultural norms. If you feel like you’re starting to stare, periodically shift your gaze to the speaker’s hands or elsewhere as you process what you’re hearing.",
+            "4. Use silence or brief prompts to encourage the other person to share more. Complete thoughts rarely tumble out of people’s mouths perfectly formed, especially if they’re talking about a complex or emotional subject. When the other person pauses or stops talking, you may be tempted to jump in with your own perspective, especially if you’re trying hard to connect (“I know just how you feel!”) or your problem-solving urge kicks in (“Well, have you tried …?”). Instead of rushing to fill the void and inadvertently trampling the message they’re trying to communicate, use silence (waiting as long as 10 seconds before prompting) or prompt them with a well-placed “Mm-hmm” or “Tell me more” to invite the other person to keep sharing. For example, continuing the conversation above: Mila: “I put together some graphs I hope the executive team will like.” You: “Mm-hmm.” Mila: “The graphs really make the case for why we should increase our operations budget next year.” You: “That sounds promising.” Mila: “I don’t know …” You: [silent, but nodding] Mila: “Well, I’m not sure I can convince them. I just wish I didn’t get so nervous in front of higher-ups.” Note: If someone isn’t sharing much, you could try asking another open-ended question (“Oh, what makes you say that?” or “Could you say more about that?”) or offering an observation (“I can tell this is important to you”). But be careful not to force the issue if they seem uncomfortable or not open to talking about the subject. Habit 5: Seek First to Understand, Then to Be Understood: 9 Tips to Listen Well and Build Empathy With Coworkers 4",
+            "5. Consider the other person’s tone and body language— and respond accordingly. Is the person crossing their arms or looking down? Or are they speaking fast and making a lot of hand gestures? Nonverbal cues are often meaningful signals about the person’s feelings and attitudes that may otherwise go unspoken. You can use this information to calibrate your responses in a way that demonstrates understanding and encourages more openness. For example, if the person has crossed their arms or isn’t making eye contact, you might say:",
+            "• “It seems like this is a difficult topic. Understandably so … but I’m interested to hear more if you’re willing to share.” Or, if the person is excitedly expressing their thoughts and gesturing, you might say:",
+            "• “It sounds like you’re really excited about this. I’d like to hear more.”",
+            "6. After the other person has fully expressed their thought, paraphrase back what you’ve heard to ensure you understood correctly. Paraphrasing—offering your summary of what you’ve heard—can be a powerful tool for building empathy. It can illuminate gaps in your understanding, demonstrate your engagement as a listener, and help the other person refine their thoughts. It’s also a good way to make sure that two people from different backgrounds (be it different departments or different cultures) are seeing an issue in the same way with nothing lost in translation. Start with phrases like:",
+            "• “It sounds like …”",
+            "• “If I’m understanding right, you …”",
+            "• “To make sure I understand, you’re saying that …” And if appropriate, follow up with “Do I have that right?” so the other person has the opportunity to tell you if you got it right or to further clarify. For example:",
+            "• “It sounds as if you feel good about your budget request, but you’re nervous about delivering it to the executives. Do I have that right?” Habit 5: Seek First to Understand, Then to Be Understood: 9 Tips to Listen Well and Build Empathy With Coworkers 5",
+            "7. Acknowledge and validate the other person’s feelings without imposing your judgment. Nobody wants to share something only to be preached at or criticized. Even well-intentioned listeners can trip up in their desire to provide an answer, commiserate, or present an alternate opinion—and end up coming off as dismissive or judgmental. When you do chime in with your own thoughts, do so in a way that shows you understand how the other person feels and why. Focus on what the person is saying and feeling, not on how it makes you feel about them or how you want to reply. For example, if your peer says, “I’ve worked hard on my presentation, but I’m worried the executive team won’t approve my request,” you might respond: Poor:",
+            "• “I know what you mean! The executive team is impossible to please.”",
+            "• “Have you tried practicing in front of a mirror?” Better:",
+            "• “That does sound stressful. It makes sense that you’d be worried about it, given the stakes and how much work you’ve put into preparing.” Note: This kind of validation doesn’t necessarily mean that you share the same views or feelings as the speaker. But it does show that you understand their perspectives and think they matter. This is especially important to convey if a coworker feels marginalized at work (for example, if they feel they are being treated unfairly or nobody listens to their ideas).",
+            "8. Think about what you have to offer the other person and whether it would be truly helpful. In many conversations, providing a listening ear to acknowledge what the other person says or to learn more about them is all you need to do to help the person feel understood and build a stronger relationship. In other cases, it might make sense for you to ask open-ended questions to try and expand the person’s view of the situation (“How about presentations in the past where you’ve felt confident—what did you do to prepare for those?”) or directly offer to help (“If you think a practice session would help, I’d be happy to hear a run- through of your presentation”). If you’re not sure what’s appropriate, rather than risk offering help someone doesn’t want and coming off as patronizing, try asking: “Is there anything I can do to help?” After the conversation, you might also consider how your newfound perspective could influence your view of the person or how to collaborate with them in the future. For example, you might gain respect for a coworker when you learn that they spend weekends volunteering. Or, if you learn that a peer has expertise and a willingness to help you with a relevant project, you might look for ways to invite them to contribute. Follow us: ©Franklin Covey Co. All rights reserved. MRK24062805 V1.0.0",
+            "9. When it’s time to wrap up, consider expressing your willingness to continue the conversation in the future. If you feel you’ve had a meaningful conversation, why not say so? You’ll reinforce your connection with the other person and pave the way for more positive interactions in the future. For example: You: “Thanks for taking the time to talk. I appreciate the conversation.” Mila: “Yeah, me too. It’s nice to know someone understands how stressful these presentations can be.” You: “Sure thing. And I’m interested to hear how it goes.” Unlock Potential. Unleash Performance. We've reimagined the 7 Habits course to be even more relevant and impactful for today's workers. Among the benefits on a personal level are the principles that can increase individual effectiveness, build strong character, and change behavior in ways that are authentic and lasting. The 7 Habits are based on universal truths and enduring principles. They're grounded in decades of research and development—and based on the best-selling business book of all time. In fact, it's been the top leadership training framework for over 35 years. FranklinCovey is the most trusted leadership company in the world, with operations in over 150+ countries. We transform organizations by building exceptional leaders, teams, and cultures that get breakthrough results. Available through the FranklinCovey All Access Pass® , our best-in-class content, experts, technology, and metrics seamlessly integrate to ensure lasting behavior change at scale. Our approach to leadership has been tested and refined by working with tens of thousands of teams and organizations over the past 30 years. To learn more, email info@franklincovey.com or call us at 1-888-868-1776."
+          ]
+        }
+      }
+    },
+    {
+      "sessionNumber": 8,
+      "code": "7H-L8",
+      "sourceFile": "7 Habits Lesson 8 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Lesson 8",
+      "title": "Synergize",
+      "level": "Habit 6 – Synergize",
+      "prepMinutes": 3,
+      "purpose": "Coach the employee to enforce strict empathic communication ground rules, lower adversarial friction, and build high-volume Third Alternatives during cross-functional conflicts.",
+      "coreConcept": "Synergy is the principle that the whole is greater than the sum of its parts (1 + 1 = 3, 10, 100). True Synergy requires valuing mental and perceptual differences to discover \"Third Alternatives\" rather than settling for weak compromises (1 + 1 = 1).",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Understanding that compromise is a middle-ground transaction where both sides give up value. Look for a commitment to search for a brand-new solution that satisfies the core wins of both sides.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In Blake and Jordan’s gridlock over production vs. safety, a standard compromise would have left both departments short of their goals. Where in our current cross-functional operations do you feel we are most tempted to settle for a weak 'compromise' instead of pushing for a synergistic Third Alternative?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"When two departments lock horns over competing targets, what is the strategic danger of a supervisor stepping in to mandate a middle-ground compromise instead of helping the teams to co-create a better way forward?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their Third Alternative Process.",
+          "whatToLookFor": "A genuine Third Alternative Process that integrates both perspectives, paired with a commitment to the listening Ground Rule (restating the other position until they feel understood at an 8/10 or higher).",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"When you deploy this Ground Rule this week, how will you handle it if they try to turn your restatement back into an adversarial debate?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Lock in the employee's plan to use the Third Alternative Process to resolve an active cross-departmental or interpersonal friction point.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Agree on a timeline to review the results of their Synergistic session, ensuring the outcome protects key metrics for both teams."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 9 if they:",
+      "successCriteria": [
+        "Defines the operational difference between Compromise (value loss) and Synergy (value expansion).",
+        "Presents a complete Third Alternative Process for an active operational or cross-functional challenge.",
+        "Commits to executing the communication Ground Rule to lower adversarial friction.",
+        "Obtains supervisor sign-off on their proposed Third Alternative Process."
+      ],
+      "nextStep": "Direct them to begin Lesson 9: Sharpen the Saw.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: Locate the chapter titled \"Habit 6: Synergize — Principles of Creative Cooperation\" in your edition of the book. Read the sub-sections:",
+              "• Synergy in Business (pp. 313-315)",
+              "• Synergy and Communication (pp. 315-317)",
+              "• Valuing the Differences (pp. 323-325)",
+              "• Force Field Analysis (pp. 325-329)",
+              "• Getting to Synergy (5-Step Process on p. 336)",
+              "– \"Look for\" Question (Reading): Dr. Covey explicitly distinguishes between Compromise (where 1 + 1 = 1 because both sides give something up) and Synergy (where 1 + 1 = 3, 10, or more). Why does true creative synergy require high trust and a willingness to value differences instead of uniform thinking?",
+              "• Video Lesson: Watch Dr. Covey's lesson on resolving opposing viewpoints to unlock a creative breakthrough (00:07 – 17:25).",
+              "– \"Look for\" Question (Video): In the live roleplay between Diana (the environmental advocate) and Carl (the production advocate), what Ground Rule did Dr. Covey introduce that instantly lowered the adversarial tension between them (see 7:15)? Explain how this rule forces a participant to shift from \"listening to reply\" to \"listening to understand.\""
+            ]
+          },
+          {
+            "heading": "II. Case Study: The Gridlocked Operations",
+            "paragraphs": [
+              "Read the following scenario and consider how the search for a Third Alternative applies to team conflicts.",
+              "Blake is an ambitious operations supervisor whose team is pushing hard to hit a record-breaking production quota this week. To make the numbers happen, Blake wants to run a critical machinery sequence at maximum speed for a continuous 48-hour block. However, Jordan, the safety and quality supervisor, flags the request: running the sequence without a mid-way calibration check breaks baseline technical guidelines and risks a minor component failure.",
+              "Blake argues: \"If we pause for calibration, we miss our output target, and the company loses immediate revenue.\"",
+              "Jordan fires back: \"If we don't pause, we risk an equipment error, and safety targets fall short.\"",
+              "They are completely gridlocked in a Win-Lose battle.",
+              "If they choose a typical Compromise—such as shortening the calibration run to a sloppy five minutes—both teams will remain anxious, Blake will still miss the clear quota, and Jordan will have to sign off on an uncertified workflow.",
+              "Both leave the meeting room defensive, assuming the other department simply refuses to be reasonable.",
+              "Reflection Questions:",
+              "1. How is this dynamic between Blake and Jordan a classic example of autobiographical listening and responding, and why would a compromise leave both departments dissatisfied?",
+              "2. If Blake and Jordan were to adopt the video’s Ground Rule, how would thoroughly restating the opponent's view to their complete satisfaction alter the situation?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The \"Third Alternative\" Process",
+            "paragraphs": [
+              "True synergy means moving past defensive communication or middle-ground compromises, and working together to co-create a Third Alternative—a brand-new solution that outperforms what either party originally had in mind.",
+              "Activity: Identify an active roadblock, friction point, or disagreement you are currently facing with a peer, a supervisor, or a direct report. Map out your Synergy path using the steps below (see also p. 336):",
+              "1. Define the problem or opportunity.",
+              "2. Their Way (Their Original Idea): What is the baseline solution or outcome the other party is fighting for?",
+              "– The \"Ground Rule\" Check: \"Before I share my position, my only goal is to restate your perspective until you feel completely understood at an 8 out of 10 or higher.\"",
+              "3. My Way (My Original Idea): What is the baseline solution or outcome you are currently trying to push forward?",
+              "4. The \"Third Alternative\" Brainstorm: If you completely drop the adversarial mindset, what is a potential \"Third Alternative\" that could satisfy the deeper operational wins for both sides without forcing either party to compromise?",
+              "5. Third Alternative \"High Way\" Option(s): Synergy solution(s)."
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• Adversarialism Kills Creation: Dr. Covey points out that adversarial environments act as a toxic seedbed that blocks organizational breakthrough. True leaders proactively clear out this friction by enforcing deep empathic checks before proposing action plans.",
+              "• The Goal is Synergy, Not Split-the-Difference: Entering a room looking for a compromise guarantees an average, uninspiring result. Synergy requires you to search for a brand-new solution that is far better than the individual ideas both sides brought into the room.",
+              "• The Magic Transformation: Once the \"Ground Rule\" is maintained, the conversation shifts from an ideological battle to natural cooperation."
+            ]
+          }
+        ],
+        "reference": {
+          "title": "Habit 6: Synergize® — When You Disagree, Spend Five Minutes Exploring Alternative Viewpoints",
+          "paragraphs": [
+            "Why do it? Qualities that can help make you a high achiever—decisiveness, experience, expertise—can also sometimes hold you back when it comes to embracing innovative ideas. When you hear an idea that breaks from the norm, it’s easy to dismiss it, thinking that’ll never work. Fight that urge. By giving alternative views a chance—at least for a little while—you’re more likely to uncover a great idea worth trying. And other people will feel more comfortable sharing new ideas with you knowing that the ideas will get fair consideration. How to do it:",
+            "1. When you disagree with an idea, rather than dismissing it, ask clarifying questions. Even if the idea seems far-fetched, dig deeper to gain as much clarity as possible on what the person is suggesting. There may be a nugget of wisdom that isn’t apparent to you or isn’t fully formed yet. You might ask:",
+            "• “What do you mean by X?”",
+            "• “Could you share an example to show what you mean?”",
+            "• “Could you say more about how you came to that idea?”",
+            "2. Spend five minutes assuming that what the person said could work. How you do this depends on the context. Here are a few possible scenarios:",
+            "• Your teammate shares an approach for the assignment you’re working on together. You disagree with their approach. Instead of countering right away with your own idea, imagine that your teammate’s approach worked brilliantly. Think through why it might have turned out so well.",
+            "3. Based on what those five minutes reveal, decide whether or how to embrace the idea. After some time and thought, you’ll be able to see the other person’s perspective more clearly. Depending on your situation, you might embrace the idea and put it into action. Or explain why you chose not to act on it. Or you might talk further with the person about their idea’s upsides and downsides—especially if your healthy disagreement could lead to a better or more polished idea in the end. If it’s an idea you must accept—maybe it came from your boss or another higher-up—taking the time to think it through will hopefully help you see a good way to put it into practice. ©Franklin Covey Co. All rights reserved. MRK24062806 V1.0.0 Unlock Potential. Unleash Performance. We've reimagined the 7 Habits course to be even more relevant and impactful for today's workers. Among the benefits on a personal level are the principles that can increase individual effectiveness, build strong character, and change behavior in ways that are authentic and lasting. The 7 Habits are based on universal truths and enduring principles. They're grounded in decades of research and development—and based on the best-selling business book of all time. In fact, it's been the top leadership training framework for over 35 years FranklinCovey is the most trusted leadership company in the world, with operations in over 150+ countries. We transform organizations by building exceptional leaders, teams, and cultures that get breakthrough results. Available through the FranklinCovey All Access Pass®, our best-in-class content, experts, technology, and metrics seamlessly integrate to ensure lasting behavior change at scale. Our approach to leadership has been tested and refined by working with tens of thousands of teams and organizations over the past 30 years. To learn more, email info@franklincovey.com or call us at 1-888-868-1776."
+          ]
+        }
+      }
+    },
+    {
+      "sessionNumber": 9,
+      "code": "7H-L9",
+      "sourceFile": "7 Habits Lesson 9 1_1 Discussion Guide.pdf",
+      "moduleLabel": "Lesson 9",
+      "title": "Sharpen the Saw",
+      "level": "Habit 7 – Sharpen the Saw",
+      "prepMinutes": 3,
+      "purpose": "Verify that the employee understands sustainable high performance, and actively support them in locking non-negotiable Quadrant II Self-Renewal blocks into their weekly schedule.",
+      "coreConcept": "Habit 7 is balanced Self-Renewal across four dimensions: Physical, Mental, Spiritual, and Social/Emotional. It is the ultimate Quadrant II activity that protects and enhances your greatest asset—yourself—to sustain high Production Capability (PC).",
+      "supervisorTip": null,
+      "isFinalSession": true,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Recognition that continuous output without Self-Renewal violates the fundamental P/PC balance, leading to entropy, mental fatigue, and burnout.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In Simon’s case study, working 70-hour weeks without renewal caused errors to double and top people to quit. Where in our current business pace do you feel we are most at risk of falling into the trap of being 'too busy sawing to sharpen the saw'?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"How does a supervisor's personal work ethic and boundaries set the culture for the entire team regarding burnout vs. sustainable high performance?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Audit their completed 4-Dimension Renewal Audit (Physical, Mental, Spiritual, Social/Emotional).",
+          "whatToLookFor": "Concrete, scheduled Quadrant II Self-Renewal action items locked into their weekly calendar rather than vague aspirations or wishful thinking.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"You've identified your Self-Renewal blocks. How will protecting these specific non-urgent Quadrant II Self-Renewal blocks on your calendar actually increase the quality, clarity, and speed of your work output next month?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Lock in the employee's 4-Dimension Renewal and establish supervisor alignment on protecting those calendar blocks.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Commit to holding the employee accountable to protecting their non-urgent Self-Renewal time, ensuring long-term Production Capability as their leadership scope expands."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Award the Certification if they:",
+      "successCriteria": [
+        "Explains the fulcrum/leverage concept of Habit 7 and why Self-Renewal belongs in Quadrant II.",
+        "Identifies explicit, scheduled action items across all Four Dimensions of Renewal.",
+        "Establishes a concrete weekly calendar rhythm that protects Production Capability (PC).",
+        "Demonstrates an inside-out understanding of how Self-Renewal empowers sustainable leadership."
+      ],
+      "nextStep": "Award the 7 Habits of Highly Effective People Certification.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: Locate the chapter titled \"Habit 7: Sharpen the Saw — Principles of Balanced Self-Renewal\" in your edition of the book. Read the sub-sections:",
+              "– Four Dimensions of Renewal (pp. 342-343)",
+              "– Scripting Others (pp. 354-356)",
+              "– Balance in Renewal (pp. 356-357)",
+              "– Synergy in Renewal (pp. 357-358)",
+              "– The Upward Spiral (pp. 359-360)",
+              "– \"Look for\" Question (Reading): Dr. Covey emphasizes that Habit 7 - Sharpen the Saw is the personal expression of Production Capability (PC). Why does neglect in even one of the four dimensions of self-renewal create diminishing returns and burnout?",
+              "• Video Lesson: Watch Dr. Covey's lesson on the four dimensions of renewal (00:20 – 05:10).",
+              "– \"Look for\" Question (Video): Dr. Covey uses the fulcrum and lever analogy to explain the leverage of Habit 7 - Sharpen the Saw. How does investing a few hours a week in Quadrant II (non-urgent and important) self-renewal shift the fulcrum to yield 100 units of output from just one unit of effort?"
+            ]
+          },
+          {
+            "heading": "II. Case Study: A Dull Saw",
+            "paragraphs": [
+              "Read the following scenario and consider how the principle of Production Capability (PC) applies to leader sustainability.",
+              "Simon is a relentless, highly ambitious branch supervisor who prides himself on working 60-hour weeks, skipping meals, ignoring physical exercise, and taking zero time off. Simon’s daily refrain to the team is: \"I'm too busy grinding to take a break—we have quotas to hit!\"",
+              "Initially, Simon’s raw effort produced short-term operational gains. However, after six months of non-stop pushing, Simon is chronically exhausted, highly reactive during minor team friction, and making poor, rushed operational choices.",
+              "Error rates across the department have doubled, two top-performing technicians have quit due to the high-stress culture, and Simon’s mental fatigue is causing constant operational missteps.",
+              "Simon vents to upper management: \"I am working harder than anyone in this company, but everything around me is breaking down and falling apart.\"",
+              "Reflection Questions:",
+              "1. How does Simon's collapse illustrate the Second Law of Thermodynamics (entropy) mentioned in the video when a leader continuously focuses on Production (P) while ignoring Production Capability (PC)?",
+              "2. Why is Simon's belief that \"I'm too busy sawing to sharpen the saw\" a classic Quadrant I (urgent and important) trap, and how does it guarantee diminishing returns for the department and burnout for Simon?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The 4-Dimension Renewal Audit",
+            "paragraphs": [
+              "True effectiveness requires continuous, balanced self-renewal. Because Habit 7 lives in Quadrant II, it is never urgent—it requires absolute proactivity to protect your greatest operational asset: yourself. Activity: Evaluate your current routine across the 4 Dimensions of Renewal outlined in the video. Complete the diagnostic audit below to build your weekly Quadrant II renewal schedule:",
+              "• 1. Physical (Body): Exercise, nutrition, and stress management.",
+              "– Current Baseline: Where are you currently burning the candle at both ends?",
+              "QII Action Item: What is one weekly physical habit (e.g., exercise, meal prep) you will schedule this week?",
+              "• 2. Mental (Mind): Reading, planning, writing, and continuous learning (Kaizen).",
+              "– Current Baseline: How are you currently keeping your mind challenged and expanding?",
+              "QII Action Item: What specific mental practice will you lock into your calendar?",
+              "• 3. Spiritual (Spirit): Value clarification, \"Principle Center\" alignment (p. 136), Personal Mission Statement review (p. 142).",
+              "– Current Baseline: How frequently do you reconnect with your core \"why\" and Personal Mission Statement?",
+              "QII Action Item: What specific practice will you use to center your conscience?",
+              "• 4. Social / Emotional (Relationships): Emotional Bank Account deposits (p. 218), Empathic Listening (p. 277), and high-trust connection.",
+              "– Current Baseline: Which key personal or professional relationship is currently strained or under-resourced?",
+              "QII Action Item: What specific deposit or empathic conversation will you make this week to rebuild that relational bridge?"
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• The Fulcrum of Effectiveness: Small, disciplined investments in Quadrant II self-renewal yield massive operational leverage. A dull saw wastes energy and ruins the wood; a sharp saw cuts cleanly with minimal friction.",
+              "• The Law of Entropy: Without proactive renewal, everything in nature and business breaks down. A manager who refuses to sharpen their mind, body, spirit, and relationships will inevitably experience physical burnout and operational collapse.",
+              "• Balance is Critical: Sharpening the saw requires a balanced approach across all four dimensions (Physical, Mental, Spiritual, Social/Emotional). Neglecting any one dimension creates limits for you and your overall leadership capacity."
+            ]
+          }
+        ],
+        "reference": null
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import type { ProgramSession, SessionRecord } from '@/lib/types';
-import { promptLabel } from '@/lib/programs';
+import { promptLabel } from '@/lib/prompt-labels';
 
 interface Props {
   sessionItemId: string;
@@ -31,14 +31,18 @@ export default function SessionForm({
   const locked = record.locked;
 
   const [showPrep, setShowPrep] = useState(!locked);
+  const [showSource, setShowSource] = useState(false);
   const [ratings, setRatings] = useState<(number | null)[]>(
     record.blockRatings.length === 3 ? record.blockRatings : [null, null, null]
   );
   const [notes, setNotes] = useState<string[]>(
     record.blockNotes.length === 3 ? record.blockNotes : ['', '', '']
   );
-  const [criteria, setCriteria] = useState<boolean[]>(
-    record.criteria.length === 3 ? record.criteria : [false, false, false]
+  // The board always returns one boolean per criterion column; a program that
+  // defines fewer criteria than the board has columns ignores the extras.
+  const criteriaCount = definition.successCriteria.length;
+  const [criteria, setCriteria] = useState<boolean[]>(() =>
+    Array.from({ length: criteriaCount }, (_, i) => record.criteria[i] ?? false)
   );
   const [followUp, setFollowUp] = useState(record.followUp);
   const [meetingDate, setMeetingDate] = useState(
@@ -227,6 +231,71 @@ export default function SessionForm({
           </div>
         )}
       </div>
+
+      {/* ------- Source material (SKOOL lesson + reference article) ------- */}
+      {definition.sourceMaterial && (
+        <div className="prep">
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              gap: 12,
+            }}
+          >
+            <div className="eyebrow" style={{ margin: 0 }}>
+              What the trainee prepared
+            </div>
+            <button
+              className="secondary"
+              style={{ padding: '4px 10px', fontSize: 13 }}
+              onClick={() => setShowSource((s) => !s)}
+            >
+              {showSource ? 'Hide' : 'Show'}
+            </button>
+          </div>
+
+          {showSource && (
+            <div style={{ marginTop: 10 }}>
+              {definition.sourceMaterial.skool.map((section) => (
+                <details key={section.heading} style={{ marginBottom: 8 }}>
+                  <summary style={{ cursor: 'pointer', fontWeight: 600 }}>
+                    {section.heading}
+                  </summary>
+                  <div style={{ marginTop: 6 }}>
+                    {section.paragraphs.map((para, i) => (
+                      <p key={i} className="small" style={{ margin: '0 0 6px' }}>
+                        {para}
+                      </p>
+                    ))}
+                  </div>
+                </details>
+              ))}
+
+              {definition.sourceMaterial.reference && (
+                <details style={{ marginBottom: 0 }}>
+                  <summary style={{ cursor: 'pointer', fontWeight: 600 }}>
+                    Reference · {definition.sourceMaterial.reference.title}
+                  </summary>
+                  <div style={{ marginTop: 6 }}>
+                    {definition.sourceMaterial.reference.paragraphs.map(
+                      (para, i) => (
+                        <p
+                          key={i}
+                          className="small"
+                          style={{ margin: '0 0 6px' }}
+                        >
+                          {para}
+                        </p>
+                      )
+                    )}
+                  </div>
+                </details>
+              )}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* ---------------- Blocks ---------------- */}
       {definition.blocks.map((block, i) => (

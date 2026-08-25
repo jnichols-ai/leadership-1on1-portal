@@ -22,7 +22,7 @@ import {
   googleCalendarLink,
   type IsoDate,
 } from './scheduling';
-import { getProgram } from './programs';
+import { criteriaCount, getProgram } from './programs';
 import type {
   CalendarLink,
   DirectoryEmployee,
@@ -115,10 +115,10 @@ export async function createEnrollment(
   input: CreateEnrollmentInput
 ): Promise<CreateEnrollmentResult> {
   const program = getProgram(input.programId);
-  const groupId = PROGRAM_GROUPS[input.programId];
-  if (!groupId) {
+  const groups = PROGRAM_GROUPS[input.programId];
+  if (!groups) {
     throw new Error(
-      `No monday group configured for program ${input.programId}. Add it to PROGRAM_GROUPS.`
+      `No monday groups configured for program ${input.programId}. Add it to PROGRAM_GROUPS.`
     );
   }
 
@@ -132,7 +132,7 @@ export async function createEnrollment(
   const enrollmentItemId = await createItem(
     input.user.token,
     ENROLLMENT_BOARD.id,
-    groupId,
+    groups.enrollment,
     input.trainee.displayName,
     {
       [C.trainee]: input.trainee.displayName,
@@ -164,7 +164,7 @@ export async function createEnrollment(
   for (const [index, session] of program.sessions.entries()) {
     const id = await createSessionItem({
       token: input.user.token,
-      groupId,
+      groupId: groups.session,
       program,
       session,
       date: schedule[index],
@@ -317,6 +317,16 @@ export async function submitSession(
   }
 
   const program = getProgram(detail.enrollment.program);
+
+  // The criterion count is program-specific (3 for 5 Levels, 4 for 7 Habits),
+  // so it can only be enforced here, once the enrollment's program is known.
+  const expectedCriteria = criteriaCount(program);
+  if (payload.criteria.length !== expectedCriteria) {
+    throw new Error(
+      `${program.programName} requires ${expectedCriteria} sign-off criteria, got ${payload.criteria.length}`
+    );
+  }
+
   const cleared = payload.criteria.every(Boolean);
 
   if (!cleared && !payload.followUp.trim()) {
@@ -337,9 +347,14 @@ export async function submitSession(
     [S.blockNotes[0]]: payload.blockNotes[0],
     [S.blockNotes[1]]: payload.blockNotes[1],
     [S.blockNotes[2]]: payload.blockNotes[2],
-    [S.criterion[0]]: { checked: payload.criteria[0] ? 'true' : 'false' },
-    [S.criterion[1]]: { checked: payload.criteria[1] ? 'true' : 'false' },
-    [S.criterion[2]]: { checked: payload.criteria[2] ? 'true' : 'false' },
+    // One checkbox per criterion the program defines; any columns beyond that
+    // belong to longer programs and are left untouched.
+    ...Object.fromEntries(
+      payload.criteria.map((checked, i) => [
+        S.criterion[i],
+        { checked: checked ? 'true' : 'false' },
+      ])
+    ),
     [S.outcome]: { label: cleared ? OUTCOME.cleared : OUTCOME.notCleared },
     [S.followUp]: payload.followUp,
     [S.signedBy]: user.name,
@@ -376,14 +391,14 @@ export async function submitSession(
   // --- Not cleared: repeat this module and push everything downstream ------
   const cadence = program.cadenceDays;
   const retakeDate = addDays(payload.meetingDate, cadence);
-  const groupId = PROGRAM_GROUPS[program.programId];
+  const groups = PROGRAM_GROUPS[program.programId];
   const sessionDef = program.sessions.find(
     (s) => s.sessionNumber === record.sessionNumber
   )!;
 
   const retakeSessionItemId = await createSessionItem({
     token: user.token,
-    groupId,
+    groupId: groups.session,
     program,
     session: sessionDef,
     date: retakeDate,

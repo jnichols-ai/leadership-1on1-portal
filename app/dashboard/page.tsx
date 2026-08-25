@@ -32,7 +32,7 @@ export default async function Dashboard() {
       const detail = await getEnrollmentDetail(user.token, e.itemId);
       const next = detail.sessions.find((s) => !s.locked);
       let programName = e.program;
-      let sessionCount = 6;
+      let sessionCount = detail.sessions.length;
       try {
         const p = getProgram(e.program);
         programName = p.programName;

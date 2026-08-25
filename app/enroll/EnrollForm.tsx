@@ -325,7 +325,7 @@ export default function EnrollForm({
           >
             {submitting
               ? 'Creating…'
-              : `Create enrollment and schedule ${program?.sessionCount ?? 6} meetings`}
+              : `Create enrollment and schedule ${program?.sessionCount ?? 0} meetings`}
           </button>
         </>
       )}
