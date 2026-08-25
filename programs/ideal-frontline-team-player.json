@@ -1,0 +1,484 @@
+{
+  "programId": "ideal-frontline-team-player",
+  "programName": "The Ideal Frontline Team Player",
+  "sourceAuthor": "Patrick Lencioni",
+  "description": "Four-session supervisor-led 1:1 certification track on the three virtues of an ideal team player — Humble, Hungry, Smart. Manager-facing discussion guide, trainee prep material, and sign-off gate for each lesson.",
+  "sessionCount": 4,
+  "cadenceDays": 7,
+  "startOffsetDays": 7,
+  "meetingDurationMinutes": 30,
+  "awardsCertification": true,
+  "certificationName": "Ideal Frontline Team Player Certification",
+  "mondayGroupTitle": "The Ideal Frontline Team Player",
+  "ratingScale": [
+    {
+      "value": 1,
+      "label": "Not demonstrated"
+    },
+    {
+      "value": 2,
+      "label": "Emerging"
+    },
+    {
+      "value": 3,
+      "label": "Demonstrated"
+    }
+  ],
+  "sessions": [
+    {
+      "sessionNumber": 1,
+      "code": "ITP-L1",
+      "sourceFile": "1_1 Discussion Guide Lesson 1.pdf",
+      "moduleLabel": "Lesson 1",
+      "title": "The 3 Virtues of an Ideal Team Player",
+      "level": "The 3 Virtues",
+      "prepMinutes": 3,
+      "purpose": "Help the employee evaluate their baseline Ideal Team Player (ITP) Assessment, candidly acknowledge their \"third area\" (primary growth virtue), and commit to a daily behavioral action step.",
+      "coreConcept": "Teamwork is an intentional choice, and effective leadership requires building a team of individuals who are Humble, Hungry, and Smart. Technical skill without these three virtues creates friction, high turnover, and cultural breakdown.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Recognition that technical skill is not a substitute for being a team player. Look for the employee's understanding that unchecked arrogance or interpersonal cluelessness drains team morale and capacity.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In Brandon's case study, his high technical output masked a deep lack of Humility and interpersonal Smarts. Where in our current operations are we most at risk of tolerating a Hungry, high performer who damages team culture?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"When a Hungry producer behaves arrogantly, what message does it send to the rest of our team if management turns a blind eye?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their completed 3 Virtues Baseline Audit and their official ITP Assessment results (https://forms.tablegroup.com/r/wgzvod).",
+          "whatToLookFor": "Vulnerability and honesty. The employee should openly share their lowest-scoring virtue (\"third area\") without defensive posturing.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"You identified 'Smart' (or Humble/Hungry) as your primary growth virtue. What is one specific situation this week where you will consciously practice this virtue in front of your team?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Lock in the employee's daily action step for strengthening their growth virtue.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Commit to observing the employee during team interactions and providing real-time, constructive feedback when growth opportunities occur."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 2 if they:",
+      "successCriteria": [
+        "Can state and define the 3 Virtues of an Ideal Team Player (Humble, Hungry, Smart).",
+        "Completes the ITP Self-Assessment (https://forms.tablegroup.com/r/wgzvod).",
+        "Openly identifies their primary growth virtue (\"third area\") with their supervisor.",
+        "Commits to a supervisor-approved behavioral action step to strengthen their target virtue this week."
+      ],
+      "nextStep": "Direct them to begin Lesson 2: Becoming the Ideal Team Player.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: \"The Three Virtues of an Ideal Team Player\" (pp. 155–164).",
+              "– Optional Reading: pp. 5–54.",
+              "– \"Look for\" Question (Reading): According to Lencioni, Humility is the single most important virtue of an ideal team player. What are the two distinct ways people lack humility, and why is a person who lacks self-confidence still violating the principle of true team-centered humility?",
+              "• Video Lesson: Watch the lesson overview by Patrick Lencioni (00:01 – 02:30).",
+              "– \"Look for\" Question (Video): How does Lencioni define \"Smart\" in the context of teamwork, and why is interpersonal smarts fundamentally different from technical intelligence or IQ?",
+              "• Weekly Required Assessment: Complete the Ideal Team Player Self-Assessment before proceeding to Section II: https://forms.tablegroup.com/r/wgzvod."
+            ]
+          },
+          {
+            "heading": "II. Case Study: The Brilliant Individual Contributor",
+            "paragraphs": [
+              "Read the following scenario and consider how the 3 Virtues apply to team performance.",
+              "Brandon is a top-tier service technician who consistently records the highest completion rates and technical scores in the branch.",
+              "However, during weekly team meetings, Brandon frequently cuts peers off, takes full credit for joint troubleshooting wins, and openly dismisses operational protocols set by upper management. When Sarah, an operations supervisor, pulls Brandon aside to discuss team alignment, Brandon responds: \"My job is to fix equipment and hit output numbers. As long as my metrics are #1, it shouldn't matter how I interact with the rest of the crew.\"",
+              "Meanwhile, Sarah notices that two promising junior technicians have requested transfers because Brandon's dismissive behavior makes them feel insecure and reluctant to ask for technical guidance.",
+              "Reflection Questions:",
+              "1. Brandon possesses high technical capability and a strong work ethic (Hungry). Which of the 3 Virtues is Brandon visibly lacking, and how is this absence actively eroding the performance capability of the surrounding team?",
+              "2. Using Lencioni's definition of \"Smart,\" how does Brandon's lack of interpersonal awareness create an organizational tax that outweighs Brandon's individual technical output?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The 3 Virtues Baseline Audit",
+            "paragraphs": [
+              "To build a high-performing team, you must first establish an honest, self-aware baseline of your own behavioral habits across all three virtues.",
+              "Activity: Open your completed ITP Assessment report (https://forms.tablegroup.com/r/wgzvod) and conduct a personal behavioral audit below:",
+              "1. Virtue Breakdown & Self-Rating:",
+              "– Humble (Self-less & Team-Centered): Rating: ____ / 10. Identify one area where you are tempted to seek personal credit or avoid admitting a mistake.",
+              "– Hungry (Self-Motivated & Proactive): Rating: ____ / 10. Identify one area where you are currently doing the bare minimum rather than pushing for excellence.",
+              "– Smart (Interpersonally Aware): Rating: ____ / 10. Identify one workplace relationship where your communication style may be creating unintended tension or defensiveness.",
+              "2. My Primary Growth Virtue: Based on your assessment scores, identify which of the three virtues represents your current \"third area\" (your primary growth opportunity).",
+              "3. My Behavioral Target: Write out one concrete, daily action step you will take this week to strengthen your primary growth virtue in front of your team."
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• The Chief Virtue: Humility is the foundational requirement for teamwork. Great team players share credit, emphasize team wins over personal ego, and readily admit mistakes.",
+              "• Hunger is Internal: Hungry team players do not need to be pushed by a manager to work hard; they are self-motivated, proactive, and constantly looking for ways to contribute to the mission.",
+              "• Smart is Emotional Intelligence: Smart team players exercise discretion and awareness in group dynamics, understanding the emotional impact of their language and behavior on their colleagues."
+            ]
+          }
+        ],
+        "reference": null
+      }
+    },
+    {
+      "sessionNumber": 2,
+      "code": "ITP-L2",
+      "sourceFile": "1_1 Discussion Guide Lesson 2.pdf",
+      "moduleLabel": "Lesson 2",
+      "title": "Becoming the Ideal Team Player",
+      "level": "Becoming the Ideal Team Player",
+      "prepMinutes": 3,
+      "purpose": "Guide the employee to recognize which archetype they risk slipping into under pressure and establish coaching strategies for managing different behavioral profiles on their team.",
+      "coreConcept": "Understanding the 6 flawed archetypes (Pawn, Bulldozer, Charmer, Accidental Mess Maker, Lovable Slacker, Skillful Politician) allows leaders to diagnose behavioral gaps precisely.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Recognition that Accidental Mess Makers need skill-building in interpersonal awareness, whereas Skillful Politicians require firm behavioral boundaries and zero tolerance for self-serving manipulation.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In the case study, Chloe was a Skillful Politician while David was an Accidental Mess Maker. Why does a leader need to handle an intentional politician completely differently from an accidental mess maker?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"How do 'Lovable Slackers' impact the morale of our hungriest team members if we fail to hold them accountable for output?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their ITP Venn Diagram Diagnostic and self-mapping exercise.",
+          "whatToLookFor": "Self-awareness regarding their stress defaults (e.g., admitting that under pressure they stop communicating interpersonally or retreat from taking initiative).",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"You mentioned you risk becoming [Pawn, Bulldozer, Charmer, Accidental Mess Maker, Lovable Slacker, Skillful Politician] when stressed. What signal can I give you during a busy shift to help you pause and recalibrate to an ITP?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Agree on a specific preventive habit for the employee to stay balanced across Humble, Hungry, and Smart.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Commit to providing immediate, constructive feedback whenever behavioral slip-ups occur."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 3 if they:",
+      "successCriteria": [
+        "Can identify and define the 6 flawed ITP archetypes: Pawn, Bulldozer, Charmer, Accidental Mess Maker, Lovable Slacker, Skillful Politician",
+        "Explains why the \"Skillful Politician\" is the most dangerous team archetype.",
+        "Identifies their own personal default archetype when under high operational stress.",
+        "Establishes a supervisor-approved preventive habit shift to maintain all 3 virtues."
+      ],
+      "nextStep": "Direct them to begin Lesson 3: Application 1 & 2: Hiring & Assessing.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: \"The Ideal Team Player Model\" (pp. 165–173).",
+              "– Optional Reading: pp. 57–88.",
+              "– \"Look for\" Question (Reading): Why does Lencioni label the \"Skillful Politician\" (Hungry + Smart, but lacking Humility) as the single most dangerous archetype on a team, and how does it differ from an \"Accidental Mess Maker\"?",
+              "• Video Lesson: Watch the lesson overview by Patrick Lencioni (00:01 – 07:34)",
+              "– \"Look for\" Question (Video): What are the behavioral characteristics of a \"Lovable Slacker\" (Humble + Smart, but lacking Hungry), and why do managers often struggle to address their lack of performance output?",
+              "• Weekly Required Assessment: Retake the Ideal Team Player Self-Assessment before proceeding to Section II: https://forms.tablegroup.com/r/wgzvod."
+            ]
+          },
+          {
+            "heading": "II. Case Study: Identifying the Flawed Archetypes",
+            "paragraphs": [
+              "Read the following scenario and consider how the Ideal Team Player Venn diagram intersections apply to leadership.",
+              "Chloe is an ambitious supervisor who speaks eloquently in leadership meetings, agrees with executive strategy, and builds rapport easily with senior directors.",
+              "However, Chloe secretly routes difficult accounts away from her own ledger onto peers' schedules to protect her bonus metrics, while privately criticizing those same peers to upper management during 1:1s.",
+              "In the same department, David is a technician who is deeply humble and works extremely hard from dawn to dusk. However, David constantly makes blunt, insensitive comments during customer hand-offs and team huddles, leaving colleagues frustrated and customers offended.",
+              "When confronted, David is genuinely shocked and apologetic, stating: \"I had no idea that came across poorly—I was just trying to get the job done!\"",
+              "Reflection Questions:",
+              "1. Using the Ideal Team Player Venn diagram categories, identify which archetype Chloe represents and which archetype David represents.",
+              "2. Why is Chloe's behavioral pattern significantly more damaging to long-term trust than David's, and how should a leader tailor their coaching approach differently for each individual?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The ITP Venn Diagram Diagnostic",
+            "paragraphs": [
+              "Understanding the 6 flawed archetypes allows you to diagnose behavioral gaps in yourself and your team, transforming vague frustration into precise coaching.",
+              "Activity: Conduct a diagnostic audit of yourself and your teammates/peers:",
+              "1. Archetype Mapping:",
+              "– Accidental Mess Maker (Humble + Hungry, Lacks Smart): Identify a situation where you or a team member had great intentions and high effort, but created an interpersonal mess.",
+              "– Lovable Slacker (Humble + Smart, Lacks Hungry): Identify a situation where you or a team member was well-liked and interpersonally skilled, but required constant prompting to do baseline work.",
+              "– Skillful Politician (Hungry + Smart, Lacks Humble): Identify the warning signs of self-serving manipulation or political maneuvering in your department.",
+              "2. Self-Diagnostic: Which of the two-virtue archetypes are you most at risk of slipping into when you are under high stress or exhaustion?",
+              "3. The Alignment Shift: What specific boundary or habit will you put in place to ensure you remain squarely in the center circle as a true Ideal Team Player (Humble, Hungry, AND Smart)?"
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• The Need for ALL Three Virtues: Having two out of three virtues is not enough. A missing virtue creates a specific behavioral weakness that drags down team effectiveness.",
+              "• Accidental Mess Makers Need Awareness: Mess makers do not intend to cause harm; they simply lack social filters or awareness. Coaching them requires pointing out their blind spots gently and immediately.",
+              "• Skillful Politicians Need Confrontation: Politicians manipulate group dynamics for personal gain. Leaders must call out self-serving behavior promptly to protect organizational trust."
+            ]
+          }
+        ],
+        "reference": null
+      }
+    },
+    {
+      "sessionNumber": 3,
+      "code": "ITP-L3",
+      "sourceFile": "1_1 Discussion Guide Lesson 3.pdf",
+      "moduleLabel": "Lesson 3",
+      "title": "Application 1 & 2: Hiring & Assessing",
+      "level": "Application 1 & 2 — Hiring & Assessing",
+      "prepMinutes": 3,
+      "purpose": "Review the employee's non-traditional hiring strategy and help them evaluate themself and whether or not they would be hired.",
+      "coreConcept": "Traditional interviews fail to detect cultural misalignments. Leaders must use non-traditional interview settings, Law-and-Order questioning, and candidate self-selection to hire true Ideal Team Players.",
+      "supervisorTip": null,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Recognition that formal Q&A desk interviews let polished candidates hide a lack of Humility or Hunger. Look for willingness to test candidates in real-world scenarios.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In Marcus's case study, a polished resume masked a toxic hire. Where in our current hiring process are we most vulnerable to being fooled by a good interview performance?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"What is the financial and cultural cost to our department when we make a bad hire because we rushed the interview process?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Review their ITP Hiring & Assessment (non-traditional scenario, Law-and-Order questions, sincerity script).",
+          "whatToLookFor": "Practicality and rigor. The Sincerity Script should be firm and clear about the team's culture.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"How will you gauge a candidate's reaction when you deliver that Sincerity Script during an interview?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Assess the employee's non-traditional interview scenario and sincerity script.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Use the employee's non-traditional interview scenario and sincerity script on them to assess their current performance."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Clear them for Lesson 4 if they:",
+      "successCriteria": [
+        "Explains why traditional desk interviews often fail to detect virtue gaps.",
+        "Designs a practical, non-traditional interview scenario (e.g., shadow run, meal, observation).",
+        "Drafts a clear \"Scared with Sincerity\" candidate warning script.",
+        "Audits themself using their non-traditional interview scenario and sincerity script."
+      ],
+      "nextStep": "Direct them to begin Lesson 4: Application 3 & 4: Develop & Embed.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: \"Application #1: Hiring\" and \"Application #2: Assessing Current Employees\" (pp. 174–194).",
+              "– Optional Reading: pp. 91–120.",
+              "– \"Look for\" Question (Reading): Why do traditional job interviews across a desk frequently fail to detect a lack of humility or smarts, and what non-traditional interviewing techniques does Lencioni recommend to see candidates in real-world environments?",
+              "• Video Lesson: Watch Patrick Lencioni's Keynote segment on hiring mechanics (timestamp 18:40 – 30:13).",
+              "– \"Look for\" Question (Video): What is the \"Law-and-Order\" school of interviewing, and how does \"scaring candidates with sincerity\" prevent bad hires before they start?",
+              "• Weekly Required Assessment: Complete your weekly Ideal Team Player Self-Assessment: https://forms.tablegroup.com/r/wgzvod."
+            ]
+          },
+          {
+            "heading": "II. Case Study: The Traditional Interview Trap",
+            "paragraphs": [
+              "Read the following scenario and consider how Ideal Team Player principles apply to recruitment and team assessment.",
+              "Marcus is a hiring manager who needs to fill a critical field supervisor role quickly.",
+              "Marcus conducts standard 30-minute desk interviews, reviewing resumes and asking questions like \"What is your biggest strength?\"",
+              "A candidate named Tyler interviews flawlessly, boasting about his technical accomplishments and giving polished answers. Marcus hires Tyler on the spot.",
+              "Within three weeks, Tyler causes massive friction: he refuses to assist field technicians, speaks condescendingly to dispatchers, and lies about why his daily reports were submitted late.",
+              "Elena, a senior operations lead, remarks to Marcus: \"If we had taken Tyler out to lunch or had him shadow a technician for two hours, his arrogance and lack of work ethic would have been obvious before we extended an offer.\"",
+              "Reflection Questions:",
+              "1. How did Marcus's traditional interview process allow a candidate to mask a severe lack of Humility and Hunger?",
+              "2. How could Elena's suggestion of non-traditional interviewing (shadowing or real-world environments) and \"scaring with sincerity\" have protected the team's culture?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: ITP Hiring & Assessment",
+            "paragraphs": [
+              "To protect your culture, you must stop interviewing for technical skills alone and implement behavioral vetting tools that reveal an applicant's true virtues.",
+              "Activity: Design a non-traditional candidate evaluation process and conduct an assessment of your current team baseline using the tools from pages 174–194:",
+              "1. Non-Traditional Interview Strategy: Design one real-world interview scenario for your department (e.g., meal interview, shadowing a team member, observing how they treat a receptionist/server).",
+              "– My Scenario: ___________________________",
+              "2. Law-and-Order Interview Questions: Draft two persistent behavioral questions designed to uncover whether a candidate is genuinely humble and hungry:",
+              "– Question 1 (Testing Humility): ___________________________",
+              "– Question 2 (Testing Hunger): ___________________________",
+              "3. Scared with Sincerity Script: Write out the exact warning script you would give final candidates to describe your team's zero tolerance for slacking, arrogance, or interpersonal disrespect.",
+              "– My Sincerity Script: \"We are fanatical about teamwork here. If you are Humble, Hungry, and Smart, you will love it. But if you aren't...\" ___________________________"
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• Hire for Virtues, Train for Skills: Technical skills can be taught, but a lack of Humility, Hunger, or Smarts creates chronic organizational damage.",
+              "• Real-World Environments Reveal Character: Taking candidates out of conference rooms into casual or high-stress environments exposes their true interpersonal behaviors and work ethic.",
+              "• Self-Selection is Efficient: Clearly communicating your company's core behavioral standards during interviews allows uncooperative or self-serving candidates to opt out before onboarding."
+            ]
+          }
+        ],
+        "reference": null
+      }
+    },
+    {
+      "sessionNumber": 4,
+      "code": "ITP-L4",
+      "sourceFile": "1_1 Discussion Guide Lesson 4.pdf",
+      "moduleLabel": "Lesson 4",
+      "title": "Application 3 & 4: Develop & Embed",
+      "level": "Application 3 & 4 — Develop & Embed",
+      "prepMinutes": 3,
+      "purpose": "Help the employee establish a structured, supervisor-approved plan for embedding ITP standards into their team.",
+      "coreConcept": "Developing Ideal Team Players requires constant, explicit feedback. Embedding the 3 Virtues into daily language, scorecards, and recognition creates an evergreen culture of accountability.",
+      "supervisorTip": null,
+      "isFinalSession": true,
+      "blocks": [
+        {
+          "id": "b1",
+          "title": "Case Study & Strategic Perspective",
+          "context": null,
+          "whatToLookFor": "Understanding that behavior and character (PC: Production Capability) must be measured and coached just like technical output (P: Production). Look for courage in addressing team dysfunction.",
+          "prompts": [
+            {
+              "type": "probe",
+              "text": "\"In the case study, Rachel's failure to address non-team behavior destroyed morale, while Tyler's peer feedback system drove accountability. How can we make character evaluation as transparent and measurable as technical KPIs on our team?\""
+            },
+            {
+              "type": "coachable_moment",
+              "text": "\"What holds managers back from giving candid feedback about a lack of Humility, Hunger, or Smarts, and how can we overcome that hesitation?\""
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "Practical Application & Tool Review",
+          "context": "The Strategic Review: Audit their completed Cultural Embedding Framework (reminder strategy, peer scorecard, recognition plan, non-negotiable boundaries).",
+          "whatToLookFor": "Clear recognition plan for team members who model the virtues.",
+          "prompts": [
+            {
+              "type": "coachable_moment",
+              "text": "\"How will you share the 3 Virtues with your team so they understand this is about growth?\""
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "title": "Action Plan & Commitment Alignment",
+          "context": null,
+          "whatToLookFor": "The Accountability Agreement: Lock in the employee's plan for sharing ITP language into their team rhythm.",
+          "prompts": [
+            {
+              "type": "your_role",
+              "text": "Support the employee by addressing behavioral slip-ups promptly."
+            }
+          ]
+        }
+      ],
+      "gateLabel": "Award the Certification if they:",
+      "successCriteria": [
+        "Explains how constant, caring reminders help employees grow in their \"third area.\"",
+        "Establishes a practical strategy for incorporating ITP language into weekly huddles.",
+        "Proposes a recognition plan to publicly reward team members who embody Humble, Hungry, and Smart.",
+        "Receives supervisor support to embed the 3 Virtues into their departmental culture."
+      ],
+      "nextStep": "Award the Ideal Frontline Team Player Certification.",
+      "sourceMaterial": {
+        "skool": [
+          {
+            "heading": "I. Preparation",
+            "paragraphs": [
+              "• Required Reading: \"Application #3: Developing Employees Who Are Lacking in One or More of the Virtues\" & \"Application #4: Embedding the Model into an Organization's Culture\" (pp. 195–215).",
+              "– Optional Reading: pp. 121–151.",
+              "– \"Look for\" Question (Reading): How does constantly reminding an employee of their \"third area\" help them develop, and why will an employee who refuses to grow eventually self-select out of a strong ITP culture?",
+              "• Video Lesson: Watch Jake Muise describe implementing the HHS (Humble, Hungry, Smart) Scorecard with Maui Nui employees (00:01 – 13:20)",
+              "– \"Look for\" Question (Video): How does Jake Muise use anonymous peer scoring and 360-degree feedback to evaluate the 3 Virtues, and why does making these metrics transparent force team members to take ownership of their daily behavior?",
+              "• Weekly Required Assessment: Complete your final Table Group Ideal Team Player Self-Assessment and compare your growth: https://forms.tablegroup.com/r/wgzvod."
+            ]
+          },
+          {
+            "heading": "II. Case Study: The Cultural Accountability Breakdown",
+            "paragraphs": [
+              "Read the following scenario and consider how embedding ITP culture transforms team operations.",
+              "Rachel is a branch manager who talks frequently about teamwork but avoids holding difficult team members accountable. One of her supervisors, Brandon, regularly displays arrogant behavior and refuses to help peers during crunch times.",
+              "Because Rachel never calls Brandon out or addresses his behavior in performance reviews, other team members assume management does not care about character.",
+              "Turnover rises, and team morale plummets.",
+              "In a neighboring branch, Tyler implements a transparent HHS (Humble, Hungry, Smart) peer scorecard.",
+              "Every quarter, every team member—including Tyler—receives a scorecard rating from their peers across the 3 Virtues.",
+              "When a technician named Chloe receives a low score in \"Hungry,\" Tyler sits down with her to review the specific peer feedback.",
+              "Chloe realizes her slacking is hurting the team, accepts a targeted improvement plan, and raises her score significantly over the next 90 days.",
+              "Reflection Questions:",
+              "1. Why did Rachel's failure to address virtue gaps undermine her team's culture, and how does Tyler's transparent evaluation framework create peer-level accountability?",
+              "2. How does Jake Muise's video example demonstrate that evaluating employees on character and behavior (PC: Production Capability) is just as measurable as evaluating hard technical skills (P: Production)?"
+            ]
+          },
+          {
+            "heading": "III. Application Activity: The Cultural Embedding Framework",
+            "paragraphs": [
+              "Embedding the 3 Virtues into your culture requires making Humble, Hungry, and Smart part of daily language, performance scorecards, and recognition systems.",
+              "Activity: Build a cultural embedding framework for your team using the tools from pages 195–215 and the video lesson:",
+              "1. Constant Reminder Strategy: How will you incorporate the language of \"Humble, Hungry, and Smart\" into your weekly team huddles or 1:1 check-ins?",
+              "– My Action: ___________________________",
+              "2. The HHS Scorecard: Design a simple quarterly feedback loop where team members rate themselves and evaluate their peers on the 3 Virtues.",
+              "– My Process: ___________________________",
+              "3. Praise & Recognition System: How will you publicly recognize and reward team members who demonstrate extraordinary Humility, Hunger, or interpersonal Smarts?",
+              "– My Recognition Plan: ___________________________",
+              "4. The Non-Negotiable Boundary: What specific behavior (e.g., gossiping, taking individual credit, chronic slacking) will carry immediate coaching consequences on your team?",
+              "– My Non-Negotiable: ___________________________"
+            ]
+          },
+          {
+            "heading": "Key Takeaways From the Reading",
+            "paragraphs": [
+              "• Development Requires Constant Reminders: Most people want to be Ideal Team Players, but they have behavioral blind spots. Consistent, caring feedback from managers and peers helps them build self-awareness.",
+              "• Institutionalize the Model: To make the 3 Virtues permanent, embed them into onboarding, performance reviews, peer feedback, and compensation systems.",
+              "• Culture Protects Itself: When an organization fanatically honors Humble, Hungry, and Smart, the culture becomes self-policing. High performers thrive, and toxic individuals cannot survive."
+            ]
+          }
+        ],
+        "reference": null
+      }
+    }
+  ]
+}

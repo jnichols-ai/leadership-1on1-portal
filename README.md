@@ -105,6 +105,7 @@ stores one id per board per program; never reuse one for the other board.
 |---|---|---|
 | 5 Levels of Leadership | `topics` | `topics` |
 | 7 Habits of Highly Effective People | `group_mm6j38bv` | `group_mm6jwaj5` |
+| The Ideal Frontline Team Player | `group_mm6jzh2` | `group_mm6jv486` |
 
 The **Employee Directory** (`18003250999`, HR workspace) is **read-only** — the
 app never writes to it.
@@ -131,16 +132,18 @@ is confirmed by the manager at enrollment and stored on the enrollment record.
 |---|---|---|---|
 | The 5 Levels of Leadership | 6 | 3 | John C. Maxwell |
 | The 7 Habits of Highly Effective People | 9 | 4 | Stephen R. Covey |
+| The Ideal Frontline Team Player | 4 | 4 | Patrick Lencioni |
 
-The manager picks the program at enrollment; the two tracks are entirely
-separate enrollments and never mix.
+The manager picks the program at enrollment; the tracks are entirely separate
+enrollments and never mix.
 
-7 Habits sessions also carry a `sourceMaterial` block — the SKOOL lesson the
+7 Habits and Ideal Team Player sessions also carry a `sourceMaterial` block — the SKOOL lesson the
 trainee prepared from (preparation, case study, application activity, key
 takeaways) plus the reference article where one exists. It renders as a
 collapsed "What the trainee prepared" panel above the discussion blocks, so the
 manager never has to leave the portal to look something up. The field is
-optional; 5 Levels omits it.
+optional; 5 Levels omits it. Only 7 Habits has reference articles, and only for
+lessons 4-8 — `reference` is `null` everywhere else, by design.
 
 ## Adding another book
 

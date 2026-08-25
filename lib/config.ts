@@ -178,6 +178,10 @@ export const PROGRAM_GROUPS: Record<
     enrollment: 'group_mm6j38bv',
     session: 'group_mm6jwaj5',
   },
+  'ideal-frontline-team-player': {
+    enrollment: 'group_mm6jzh2',
+    session: 'group_mm6jv486',
+  },
 };
 
 export function requireEnv(name: string): string {

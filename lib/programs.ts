@@ -1,6 +1,7 @@
 import type { Program, ProgramSession } from './types';
 import fiveLevels from '@/programs/5-levels-of-leadership.json';
 import sevenHabits from '@/programs/7-habits-of-highly-effective-people.json';
+import idealTeamPlayer from '@/programs/ideal-frontline-team-player.json';
 import { MAX_CRITERIA } from './config';
 
 /**
@@ -18,6 +19,7 @@ import { MAX_CRITERIA } from './config';
 const REGISTRY: Program[] = [
   fiveLevels as unknown as Program,
   sevenHabits as unknown as Program,
+  idealTeamPlayer as unknown as Program,
 ];
 
 export function listPrograms(): Program[] {
