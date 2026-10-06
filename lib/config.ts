@@ -102,7 +102,7 @@ export const SESSION_BOARD = {
     ] as const,
     /**
      * Sign-off criteria columns. A program uses the first N, where N is the
-     * number of successCriteria its guides define (3 for 5 Levels, 4 for
+     * number of successCriteria its guides define (3 for How Successful People Lead, 4 for
      * 7 Habits). Unused columns are simply never written.
      */
     criterion: [

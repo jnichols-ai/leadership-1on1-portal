@@ -318,7 +318,7 @@ export async function submitSession(
 
   const program = getProgram(detail.enrollment.program);
 
-  // The criterion count is program-specific (3 for 5 Levels, 4 for 7 Habits),
+  // The criterion count is program-specific (3 for How Successful People Lead, 4 for 7 Habits),
   // so it can only be enforced here, once the enrollment's program is known.
   const expectedCriteria = criteriaCount(program);
   if (payload.criteria.length !== expectedCriteria) {

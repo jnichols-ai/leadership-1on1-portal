@@ -66,7 +66,7 @@ export function criteriaCount(program: Program): number {
  *     pairs exist on the session board);
  *   - a consistent number of success criteria within a program, between 1 and
  *     MAX_CRITERIA (one monday checkbox column each). Programs may differ from
- *     each other: 5 Levels uses 3, 7 Habits uses 4.
+ *     each other: How Successful People Lead uses 3, 7 Habits uses 4.
  *
  * Called at build/startup so a malformed new book fails loudly rather than
  * rendering a broken form.

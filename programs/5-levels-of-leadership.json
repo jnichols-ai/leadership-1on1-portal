@@ -1,6 +1,6 @@
 {
   "programId": "5-levels-of-leadership",
-  "programName": "The 5 Levels of Leadership",
+  "programName": "How Successful People Lead",
   "sourceAuthor": "John C. Maxwell",
   "description": "Six-session supervisor-led 1:1 certification track for leaders in training. Manager-facing discussion guide and sign-off gate for each session.",
   "sessionCount": 6,
@@ -8,8 +8,8 @@
   "startOffsetDays": 7,
   "meetingDurationMinutes": 30,
   "awardsCertification": true,
-  "certificationName": "5 Levels of Leadership Certification",
-  "mondayGroupTitle": "5 Levels of Leadership",
+  "certificationName": "How Successful People Lead Certification",
+  "mondayGroupTitle": "How Successful People Lead",
   "ratingScale": [
     { "value": 1, "label": "Not demonstrated" },
     { "value": 2, "label": "Emerging" },
@@ -361,7 +361,7 @@
         "Have shared a clear \"Legacy Vision\" for their current role.",
         "Commit to using a personal \"crucible story\" to mentor a peer this month."
       ],
-      "nextStep": "Award the 5 Levels of Leadership Certification."
+      "nextStep": "Award the How Successful People Lead Certification."
     }
   ]
 }
